@@ -1,7 +1,5 @@
 # Ausführliche Dokumentation Modul 2: Vertiefung IT-Kenntnisse und Konzepte
 
-Hallo! Hier kommt die detaillierte Dokumentation für das **zweite Modul**, basierend auf den von Dir bereitgestellten Dateien (2.1 bis 2.16). Wie gewünscht, erkläre ich alles Schritt für Schritt und gehe davon aus, dass Du keine Vorkenntnisse benötigst.
-
 ## Modulübersicht
 
 In diesem zweiten Modul vertiefen wir Dein Wissen über die Informationstechnologie (IT). Wir beginnen mit einem Blick auf die Geschichte und die verschiedenen Felder der IT, untersuchen die Dynamik des IT-Marktes und lernen typische IT-Rollen in Unternehmen kennen. Ein besonderer Fokus liegt auf der Hardware (Computerarchitektur, Komponenten, Ein-/Ausgabegeräte), Betriebssystemen (Aufgaben, Komponenten, Prozesse) und Software (Arten, Office-Anwendungen, Anwendungsarchitektur, Programmiersprachen). Ziel ist es, Dir ein fundierteres Verständnis der Technologien zu vermitteln, die unsere moderne Welt prägen.
