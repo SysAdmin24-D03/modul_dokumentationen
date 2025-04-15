@@ -1,7 +1,5 @@
 # Ausführliche Dokumentation Modul 1: Grundlagen der IT und Digitalen Kompetenz
 
-Hallo! In dieser Dokumentation führe ich Dich detailliert durch das erste Modul, das sich mit den grundlegenden Konzepten der Informationstechnologie (IT) und digitalen Kompetenz beschäftigt. Wir gehen davon aus, dass Du keinerlei Vorkenntnisse hast, und erklären jeden Schritt so genau wie möglich.
-
 ## Modulübersicht
 
 Dieses erste Modul legt das Fundament für Dein Verständnis der digitalen Welt. Wir behandeln essenzielle Werkzeuge und Konzepte, von der grundlegenden Hardware-Interaktion über die Dateiverwaltung bis hin zur sicheren Nutzung des Internets und digitaler Kommunikationsmittel. Ziel ist es, Dich sicher und kompetent im Umgang mit Computern und digitalen Technologien zu machen.
