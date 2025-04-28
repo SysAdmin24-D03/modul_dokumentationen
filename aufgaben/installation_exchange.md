@@ -101,7 +101,7 @@ Installiere die erforderlichen Windows Server-Features und andere Software:
 
 ## Installationsschritte
 
-### Vorbereitung des Active Directory und der Domänen
+### Vorbereitung des Active Directory und der Domänen (Kann übersprungen werden)
 
 Die Active Directory-Umgebung muss für Exchange Server vorbereitet werden. Diese Befehle verwendest du mit der `Setup.exe` aus dem Exchange Server-Installationsmedium (DVD oder ISO). Beachte: In PowerShell musst du bei lokalen Befehlen `./` voranstellen.
 
