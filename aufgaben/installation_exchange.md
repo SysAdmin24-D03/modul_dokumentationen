@@ -91,7 +91,7 @@ Installiere die erforderlichen Windows Server-Features und andere Software:
      - [Microsoft Visual C++ Redistributable 2019](https://learn.microsoft.com/de-de/cpp/windows/latest-supported-vc-redist)
      - [.NET Framework 4.8](https://dotnet.microsoft.com/de-de/download/dotnet-framework/net48)
 
-## Installationsschritte
+## Installationsschritte (UNGETESTET!)
 
 ### Vorbereitung des Active Directory und der Domänen
 
