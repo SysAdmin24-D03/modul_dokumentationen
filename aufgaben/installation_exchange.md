@@ -76,6 +76,7 @@ Installiere die erforderlichen Windows Server-Features und andere Software:
    ```
 
 2. **Zusätzliche Software**:
+
    - **Für Windows Server 2025**: Winget ist bereits im Lieferumfang enthalten und kann direkt verwendet werden:
      ```powershell
      winget install Microsoft.VCRedist.2015+.x64
@@ -83,19 +84,28 @@ Installiere die erforderlichen Windows Server-Features und andere Software:
      winget install Microsoft.VCRedist.2012.x64
      winget install Microsoft.DotNet.Framework.DeveloperPack_4
      ```
+
    - **Für Windows Server 2019 und 2022**: Installiere zuerst den [App Installer](https://www.microsoft.com/p/app-installer/9nblggh4nns1) für winget-Unterstützung und verwende dann die gleichen Befehle wie oben.
-   - **Für alle Windows Server-Versionen**: UCMA 4.0 Runtime ist nicht über winget verfügbar und muss manuell heruntergeladen werden: [UCMA 4.0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=34992).
+
+   - **Für alle Windows Server-Versionen**:
+     - **IIS-URL-Rewrite-Module**:
+       - Download: [IIS-URL-Rewrite-Module (de-DE)](https://download.microsoft.com/download/1/2/8/128E2E22-C1B9-44A4-BE2A-5859ED1D4592/rewrite_amd64_de-DE.msi)
+
+     - UCMA 4.0 Runtime ist nicht über winget verfügbar und muss manuell heruntergeladen werden: [UCMA 4.0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=34992).
+
    - **Für ältere Windows Server-Versionen (2016 und älter)**: Nutze die direkten Download-Links:
      - [Microsoft Visual C++ Redistributable 2012](https://www.microsoft.com/de-de/download/details.aspx?id=30679)
      - [Microsoft Visual C++ Redistributable 2013](https://www.microsoft.com/de-de/download/details.aspx?id=40784)
      - [Microsoft Visual C++ Redistributable 2019](https://learn.microsoft.com/de-de/cpp/windows/latest-supported-vc-redist)
      - [.NET Framework 4.8](https://dotnet.microsoft.com/de-de/download/dotnet-framework/net48)
 
-## Installationsschritte (UNGETESTET!)
+## Installationsschritte
 
 ### Vorbereitung des Active Directory und der Domänen
 
-Die Active Directory-Umgebung muss für Exchange Server vorbereitet werden. Diese Befehle verwendest du mit der `Setup.exe` aus dem Exchange Server-Installationsmedium (DVD oder ISO). Beachte: In PowerShell musst du bei lokalen Befehlen `./` voranstellen:
+Die Active Directory-Umgebung muss für Exchange Server vorbereitet werden. Diese Befehle verwendest du mit der `Setup.exe` aus dem Exchange Server-Installationsmedium (DVD oder ISO). Beachte: In PowerShell musst du bei lokalen Befehlen `./` voranstellen.
+
+> **Hinweis:** Der GUI-Installer von Exchange Server führt diese Schritte automatisch aus, falls sie noch nicht durchgeführt wurden. Du kannst sie manuell ausführen, wenn du die Vorbereitung vorab separat erledigen möchtest.
 
 1. **Schema erweitern**:
    ```powershell
