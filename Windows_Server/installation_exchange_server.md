@@ -106,8 +106,6 @@ Diese Anleitung beschreibt Schritt für Schritt die Bereitstellung eines Microso
 
 ### **Setup-Assistent starten**
 
-![Setup-Assistent starten](images/setup-wizard-start.png)
-
 Der erste Dialog des Exchange-Setup-Assistenten begrüßt Sie und zeigt eine Übersicht der nächsten Schritte. Klicken Sie auf **Weiter**, um zur Update-Prüfung zu gelangen.
 
 **Setup.exe doppelklicken** oder in PowerShell:
@@ -123,31 +121,67 @@ Der erste Dialog des Exchange-Setup-Assistenten begrüßt Sie und zeigt eine Üb
 
 1. **Updates suchen**
 
-   ![Updates suchen](images/check-for-updates.png)
+   ![Updates suchen](https://learn.microsoft.com/de-de/exchange/exchangeserver/media/exchange-install-checkupdates-no.jpg?view=exchserver-2019)
 
    Dieser Dialog fragt, ob das Setup online nach den neuesten Cumulative Updates suchen soll. Nutzen Sie **Mit dem Internet verbinden und nach Updates suchen**, wenn der Server Internetzugang hat.
 
 2. **Lizenzbedingungen**
 
-   ![Lizenzbedingungen](images/license-agreement.png)
+   ![Lizenzbedingungen](https://learn.microsoft.com/de-de/exchange/exchangeserver/media/2bb6bfaa-1b39-4052-9420-a7a053b07d58.png?view=exchserver-2019)
 
    Lesen Sie den Endbenutzer-Lizenzvertrag und aktivieren Sie die Checkbox **Ich akzeptiere die Bedingungen des Lizenzvertrags**, um fortzufahren.
 
 3. **Bereitstellungsoptionen**
 
-   ![Bereitstellungsoptionen](images/deployment-options.png)
+   ![Bereitstellungsoptionen](https://learn.microsoft.com/de-de/exchange/exchangeserver/media/install-mailbox-role04.png?view=exchserver-2019)
 
-   Wählen Sie hier den Installationsmodus. Die **Standard**-Option installiert typische Komponenten, während **Benutzerdefiniert** erweiterte Einstellungen erlaubt (in den meisten Fällen reicht Standard).
+   Wählen Sie, ob Sie die empfohlenen Einstellungen verwenden möchten. **Empfohlene Einstellungen verwenden** sendet Diagnosedaten an Microsoft, **Nicht verwenden** deaktiviert dies.
+
+4. **Empfohlene Einstellungen**
+
+   ![Empfohlene Einstellungen](https://learn.microsoft.com/de-de/exchange/exchangeserver/media/install-mailbox-role04.png?view=exchserver-2019)
+
+   Legen Sie fest, ob Exchange automatisch Fehlermeldungen und Telemetriedaten an Microsoft sendet. Dies lässt sich später in den Einstellungen anpassen.
+
+5. **Serverrollenauswahl**
+
+   ![Serverrollenauswahl](https://learn.microsoft.com/de-de/exchange/exchangeserver/media/install-mailbox-role05.png?view=exchserver-2019)
+
+   Aktivieren Sie **Postfachrolle**. Falls gewünscht, lassen Sie den Haken bei **Benötigte Rollen und Features automatisch installieren** gesetzt.
+
+6. **Installationsspeicherplatz und -ort**
+
+   ![Speicherort auswählen](https://learn.microsoft.com/de-de/exchange/exchangeserver/media/install-mailbox-role06.png?view=exchserver-2019)
+
+   Wählen Sie den Pfad für die Exchange-Programmdateien und Database-Dateien. Prüfen Sie den freien Speicherplatz.
+
+7. **Exchange-Organisation einrichten**
+
+   ![Organisation einrichten](https://learn.microsoft.com/de-de/exchange/exchangeserver/media/install/mailbox-role07.png?view=exchserver-2019)
+
+   Geben Sie einen eindeutigen Namen für Ihre Exchange-Organisation ein (max. 64 Zeichen). Nachträgliche Änderungen sind nicht möglich.
+
+8. **Schutz vor Schadsoftware**
+
+   ![Schadsoftware-Schutz](https://learn.microsoft.com/de-de/exchange/exchangeserver/media/install/mailbox-role08.png?view=exchserver-2019)
+
+   Entscheiden Sie, ob der integrierte Malware-Scan aktiviert bleiben soll. Standard ist **Nein**, also kein Deaktivieren.
+
+9. **Bereitschaftsüberprüfung**
+
+   ![Bereitschaftsüberprüfung](https://learn.microsoft.com/de-de/exchange/exchangeserver/media/install/mailbox-role09.png?view=exchserver-2019)
+
+   Das Setup zeigt alle Prüfungen an. Beheben Sie Fehler, klicken Sie auf **Wiederholen** und fahren Sie fort, bis alle Checks grün sind.
 
 ### **Rollenauswahl und Pfad-Konfiguration**
 
-![Rollenauswahl und Pfad-Konfiguration](images/role-path-selection.png)
+![Rollenauswahl und Pfad-Konfiguration](https://learn.microsoft.com/de-de/exchange/exchangeserver/media/install/mailbox-role05.png?view=exchserver-2019)
 
 In diesem Schritt wählen Sie die **Mailbox-Serverrolle** aus und legen das Verzeichnis für Programmdaten (z.B. C:\Program Files) und Datenbanken (z.B. D:\ExchangeDatabases) fest.
 
 ### **Readiness Checks & Troubleshooting**
 
-![Readiness Checks](images/readiness-checks.png)
+![Readiness Checks](https://learn.microsoft.com/de-de/exchange/exchangeserver/media/install/mailbox-role06.png?view=exchserver-2019)
 
 Exchange führt nun eine detaillierte Prüfung aller Voraussetzungen durch. Rote Fehler müssen behoben werden, bevor Sie auf **Installieren** klicken können.
 
