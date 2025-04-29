@@ -1,223 +1,263 @@
-# Installationsanleitung: Microsoft Exchange Server 2019 CU15 (GUI-Installation)
+## **Exchange Server Planung und Bereitstellung**
 
-## Inhaltsverzeichnis
+### **Inhaltsverzeichnis**
 
-- Einleitung
-- Planung und Vorbereitung
-  - Hardware- und Softwareanforderungen
-  - Wichtige Tools und Links
-  - Vorbereitung der Testumgebung
-  - Vorbereitung des Active Directory
-- Installationsvoraussetzungen
-  - Windows Server Features installieren
-  - Zusätzliche Software installieren
-  - Hinweise zu Windows Server 2019 und winget
-- Exchange 2019 CU15 Installation (GUI)
-  - Setup starten und Updates suchen
-  - Lizenzbedingungen und Einstellungen
-  - Rollen- und Installationstyp auswählen
-  - Installationspfad festlegen
-  - Exchange-Organisation einrichten
-  - Malware-Schutz Einstellungen
-  - Voraussetzungsprüfung
-  - Installation durchführen und Abschluss
-- Aufgaben nach der Installation
-  - Exchange-Dienste prüfen
-  - Exchange Admin Center (EAC) aufrufen
-  - SSL-Zertifikate einrichten
-  - E-Mail-Fluss testen
-  - Backup und Wartung
-- Häufige Probleme und Fehlerbehebung
-- Wichtige Ressourcen und Links
+1. [Einleitung](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#einleitung)
 
-## Einleitung
+2. [Planungsphase](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#planungsphase)
 
-In dieser Anleitung wird Schritt für Schritt erläutert, wie Microsoft Exchange Server 2019 CU15 auf einem Windows-Server über den grafischen Setup-Assistenten (GUI Installer) installiert wird. Es handelt sich um eine umfassende Installationsanleitung in deutscher Sprache, die sowohl die Vorbereitung der Umgebung als auch die eigentliche Installation und Nachbereitung abdeckt. Zielgruppe sind IT-Profis und Systemadministratoren, die eine Exchange 2019 CU15 Test- oder Produktivumgebung einrichten möchten. Wir beginnen mit einer Übersicht der Voraussetzungen sowie Planungsschritte. Anschließend folgt die detaillierte Anleitung zur Installation von Exchange Server 2019 CU15 mithilfe des GUI-Setup-Assistenten. Schließlich werden wichtige Nachkonfigurations-Schritte, häufige Probleme und deren Behebung sowie weiterführende Ressourcen erläutert.
+   1. [Dokumentation und Tools](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#dokumentation-und-tools)
 
-> **Hinweis:** Exchange Server 2019 CU15 ist ein kumulatives Update, das alle vorherigen Updates enthält. Bei der Installation von Exchange wird immer die vollständige Version installiert, d.h. Sie müssen keine früheren CUs installieren, wenn Sie direkt mit CU15 beginnen. CU15 entspricht außerdem dem geplanten Wechsel zur neuen Exchange Server Subscription Edition (SE) – es ist das letzte CU für Exchange 2019 und bildet die Basis für Exchange SE.
+   2. [Testumgebung](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#testumgebung)
 
----
+   3. [Systemanforderungen](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#systemanforderungen)
 
-## Planung und Vorbereitung
+3. [Vorbereitung](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#vorbereitung)
 
-Eine sorgfältige Planung und Vorbereitung stellt sicher, dass die Exchange-Installation reibungslos verläuft. In diesem Abschnitt erfahren Sie die Mindestanforderungen und Empfehlungen, welche Vorarbeiten durchzuführen sind und welche Ressourcen hilfreich sind, bevor Sie mit der eigentlichen Installation beginnen.
+   1. [Voraussetzungen installieren](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#voraussetzungen-installieren)
 
-### Hardware- und Softwareanforderungen
+   2. [Active Directory Vorbereitung (optional)](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#active-directory-vorbereitung-optional)
 
-**Betriebssystem und Serverrolle:**
-- Exchange Server 2019 CU15 kann auf Windows Server 2019 oder höher installiert werden (inkl. Windows Server 2022; Unterstützung für Windows Server 2025 wurde mit CU14/15 hinzugefügt). Für die GUI-Installation muss der Server im Desktop Experience Modus installiert sein. Der Exchange-Server sollte Mitglied einer Active-Directory-Domäne sein (bitte keinen Workgroup-Server verwenden).
-- Active Directory:
-  - Stellen Sie sicher, dass alle Domänencontroller in der Gesamtstruktur mit einer unterstützten Windows Server-Version ausgeführt werden (z.B. Windows Server 2012 R2 oder höher). Die Gesamtstrukturfunktionsebene muss die Anforderungen für Exchange 2019 erfüllen.
-  - In dem Standort muss mindestens ein beschreibbarer globaler Katalogserver vorhanden sein.
-- **Wichtig:** Microsoft empfiehlt ausdrücklich, Exchange nicht auf einem Domänencontroller zu installieren.
+4. [Installation mit dem GUI-Installer](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#installation-mit-dem-gui-installer)
 
-**Hardware:**
-- **CPU:** 64-Bit Prozessor (x64) von Intel oder AMD. Max. 2 physische Sockel empfohlen.
-- **RAM:**
-  - Mailbox-Server (Produktiv): ≥ 128 GB
-  - Edge-Transport-Server: ≥ 64 GB
-  - Testumgebung: ≥ 8 GB
-- **Festplattenspeicher:**
-  - Installationslaufwerk: ≥ 30 GB frei
-  - Systemlaufwerk (C:): ≥ 200 MB frei
-  - Transport-Warteschlangendatenbank: ≥ 500 MB frei
-- **Netzwerk:** Gigabit-Ethernet oder höher, DNS korrekt konfiguriert.
-- **Clients:** Outlook 2013, 2016, 2019 und Microsoft 365 Apps for Enterprise.
+   1. [Setup-Medium bereitstellen](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#setup-medium-bereitstellen)
 
-### Wichtige Tools und Links
+   2. [Setup-Assistent starten](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#setup-assistent-starten)
 
-- Exchange Deployment Assistant
-- Release Notes & KB: CU15 KB5042461
-- Supportability Matrix: Unterstützte Windows- und .NET-Versionen
-- Microsoft Learn: Detaillierte Dokumentation zu Exchange 2019
+   3. [Wizard-Schritte im Detail](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#wizard-schritte-im-detail)
 
-### Vorbereitung der Testumgebung
+   4. [Rollenauswahl und Pfad-Konfiguration](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#rollenauswahl-und-pfad-konfiguration)
 
-- Isolierte AD-Gesamtstruktur
-- Virtuelle Maschinen mit Snapshots
-- Interner DNS-Server
-- Optional Internetzugang für Updates/Hybrid
-- Snapshot vor Installation
+   5. [Readiness Checks & Troubleshooting](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#readiness-checks--troubleshooting)
 
-### Vorbereitung des Active Directory
+5. [Nach der Installation](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#nach-der-installation)
 
-**Manuelle AD-Vorbereitung:**
-```powershell
-Setup.exe /PrepareSchema
-Setup.exe /PrepareAD /OrganizationName:<Name>
-Setup.exe /PrepareDomain
-```
+   1. [Erste Konfigurationsschritte im EAC](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#erste-konfigurationsschritte-im-eac)
 
-> **AD Vorbereitung durch Setup:** GUI-Setup führt Schema- und AD-Vorbereitung automatisch aus, wenn Rechte vorhanden sind.
+   2. [Post-Installation-Aufgaben](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#post-installation-aufgaben)
+
+6. [Wartung und Updates](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#wartung-und-updates)
+
+7. [Fehlerbehebung im GUI-Context](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#fehlerbehebung-im-gui-context)
+
+8. [Ressourcen](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#ressourcen)
 
 ---
 
-## Installationsvoraussetzungen
+## **Einleitung**
 
-### Windows Server Features installieren
-
-```powershell
-Install-WindowsFeature Server-Media-Foundation, NET-Framework-45-Features, RPC-over-HTTP-proxy, RSAT-Clustering, RSAT-Clustering-CmdInterface, RSAT-Clustering-Mgmt, RSAT-Clustering-PowerShell, WAS-Process-Model, Web-Asp-Net45, Web-Basic-Auth, Web-Client-Auth, Web-Digest-Auth, Web-Dir-Browsing, Web-Dyn-Compression, Web-Http-Errors, Web-Http-Logging, Web-Http-Redirect, Web-Http-Tracing, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Metabase, Web-Mgmt-Console, Web-Mgmt-Service, Web-Net-Ext45, Web-Request-Monitor, Web-Server, Web-Stat-Compression, Web-Static-Content, Web-Windows-Auth, Web-WMI, Windows-Identity-Foundation, RSAT-ADDS
-```
-
-### Zusätzliche Software installieren
-
-- .NET Framework 4.8
-- Visual C++ Redistributable 2012 (x64)
-- Visual C++ Redistributable 2013 (x64)
-- IIS URL Rewrite Module 2.1 (x64)
-- UCMA 4.0 Runtime
-
-### Hinweise zu Windows Server 2019 und winget
-
-- winget nicht standardmäßig installiert
-- Installation über App-Installer
-- Praktisch für Redistributables und IIS Module
+Diese Anleitung beschreibt Schritt für Schritt die Bereitstellung eines Microsoft Exchange Servers **per GUI-Installer**. Ziel ist es, sowohl die Vorbereitung als auch den eigentlichen Wizard-Durchlauf so zu strukturieren, dass selbst Einsteiger sicher und effizient zum Ziel kommen.
 
 ---
 
-## Exchange 2019 CU15 Installation (GUI)
+## **Planungsphase**
 
-### Setup starten und Updates suchen
+### **Dokumentation und Tools**
 
-1. Setup.exe als Administrator
-2. Check for Updates?
-3. Dateien kopieren
-4. Einführung → Weiter
+* **Exchange Server Release Notes**  
+   Lies vorab die aktuellen Release Notes für deine Version (2016/2019/2022/2025), um Breaking Changes und Hotfix-Empfehlungen zu kennen.
 
-### Lizenzbedingungen und Einstellungen
+* **Exchange Deployment Assistant**  
+   Mit dem Web-Tool ([https://assistants.microsoft.com](https://assistants.microsoft.com/)) erstellst du einen maßgeschneiderten Fragenkatalog, der dein Setup-Szenario abfragt und alle notwendigen Schritte ausgibt.
 
-1. Lizenzvertrag akzeptieren
-2. Empfohlene Einstellungen (Diagnosedaten senden)
+### **Testumgebung**
 
-### Rollen- und Installationstyp auswählen
+* **Isolierte Umgebung aufsetzen**  
+   Verwende Hyper-V oder VMware, um eine Kopie deiner geplanten Produktionsumgebung nachzubauen.
 
-- Mailbox Role auswählen
-- Automatisch benötigte Rollen/Features installieren
+* **Gleiche Versionen verwenden**  
+   Domain Controller, DNS, Zertifikats-CA und Client-VMs sollten exakt dieselben Versionen nutzen wie später in der Produktion.
 
-### Installationspfad festlegen
+### **Systemanforderungen**
 
-- Standard: C:\Program Files\Microsoft\Exchange Server\V15
-- Empfehlung: eigenes Volume (z.B. E:\Exchange\V15)
+* **Hardware**
 
-### Exchange-Organisation einrichten
+  * CPU: 64-Bit, mindestens 4 Kerne
 
-- Organisationsname festlegen (z.B. "ContosoExchange")
-- Split-Permission deaktiviert
+  * RAM: 16 GB (Produktivserver), 8 GB (Test)
 
-### Malware-Schutz Einstellungen
+  * SSD empfohlen für Datenbanken
 
-- „Do you want to disable malware scanning?“
-  - Nein (Standard)
-  - Ja
+* **Software**
 
-### Voraussetzungsprüfung
+  * Windows Server in passender Version (2019/2022/2025)
 
-- Windows-Komponenten
-- Softwarepakete
-- Speicherplatz
-- AD-Rechte
+  * Aktuelle .NET Frameworks und Windows-Patches
 
-### Installation durchführen und Abschluss
+  * Active Directory-Schemafunktionsebene ≥ Windows Server 2012 R2
 
-- Fortschritt
-- Log: C:\ExchangeSetupLogs\ExchangeSetup.log
-- Finish → Neustart
+---
 
-* * *
+## **Vorbereitung**
 
-## Aufgaben nach der Installation
+### **Voraussetzungen installieren**
 
-### Exchange-Dienste prüfen
+1. **PowerShell als Administrator öffnen**
 
-```powershell
-Get-Service *Exchange* | Select Name, Status
+2. **Windows Features per GUI oder PowerShell**
+
+   * **GUI-Variante**: „Server Manager → Rollen und Features hinzufügen“ → Web-Server (IIS) und alle Unterrollen auswählen, RSAT-Tools, .NET Framework 4.8.
+
+**PowerShell-Variante**:
+
+ Install-WindowsFeature NET-Framework-45-Features, Web-Server, Web-Asp-Net45, RSAT-ADDS, ...
+
+*   
+3. **Externe Komponenten**
+
+   * **IIS URL Rewrite**: MSI-Paket herunterladen und per Doppelklick installieren.
+
+   * **Visual C++ Redistributables** (2012, 2013, 2015+) via Winget oder manuell.
+
+### **Active Directory Vorbereitung (optional)**
+
+**Hinweis:** Der GUI-Installer führt `/PrepareSchema`, `/PrepareAD` und `/PrepareDomain` automatisch aus, wenn nötig. Nur vorab manuell durchführen, wenn du volle Kontrolle willst.
+
+---
+
+## **Installation mit dem GUI-Installer**
+
+### **Setup-Medium bereitstellen**
+
+* ISO mounten oder DVD einlegen.
+
+* Prüfen, ob das Konto lokale Admin-Rechte hat und die PowerShell-ExecutionPolicy keine Skripte blockiert.
+
+### **Setup-Assistent starten**
+
+**Setup.exe doppelklicken** oder in PowerShell:
+
+```ps
+ cd D:\\Setup\\  
+.\\Setup.exe
 ```
+ 
+> **GUI-Willkommensbildschirm:** „Weitere Informationen zu Installation und Updates“ ggf. überspringen.
 
-### Exchange Admin Center (EAC) aufrufen
+### **Wizard-Schritte im Detail**
 
-- https://<servername>/ecp
+1. **Updates suchen**
 
-### SSL-Zertifikate einrichten
+   * Wähle „Mit dem Internet verbinden und nach Updates suchen“, um Patches automatisch zu laden.
 
-1. EAC > Server > Zertifikate
-2. Anfrage erstellen und importieren
-3. Dienste zuweisen
+2. **Lizenzbedingungen**
 
-### E-Mail-Fluss testen
+   * Einwilligung per Checkbox.
 
-- Intern: OWA → Testmail
-- Extern ausgehend: Send Connector
-- Extern eingehend: MX, Firewall Port 25
+3. **Bereitstellungsoptionen**
 
-### Backup und Wartung
+   * Standard­installation vs. benutzerdefiniert:
 
-- VSS-Writer Backup
-- Sicherheitsupdates
-- Monitoring, Logging, DB-Wartung
+     * **Standard**: Empfohlen für Einsteiger; installiert Mailbox-Rolle und Management Tools.
 
-* * *
+     * **Benutzerdefiniert**: Wähle gezielt Mailbox, Edge Transport, oder nur Management-Tools aus.
 
-## Häufige Probleme und Fehlerbehebung
+### **Rollenauswahl und Pfad-Konfiguration**
 
-- Fehlende Voraussetzungen → Retry
-- Ungenügende Berechtigungen
-- Dienste starten nicht → Event Viewer
-- HTTP 500 bei ECP/OWA → URL Rewrite
-- Zertifikatwarnungen → Namen anpassen
+* **Organisation**
 
-* * *
+  * Gib einen eindeutigen Namen ohne Leerzeichen an.
 
-## Wichtige Ressourcen und Links
+* **Rollen**
 
-- Microsoft Docs – Exchange 2019 Systemanforderungen
-- Microsoft Docs – Exchange 2019 Voraussetzungen
-- GUI-Installation Mailbox-Serverrolle
-- Release Notes zu CU15 (KB5042461)
-- Exchange Deployment Assistant
-- Exchange Team Blog
-- Download Exchange 2019 CU15
-- UCMA, Visual C++ Redistributables, IIS Rewrite
-- Microsoft Q&A Forum
-- TechNet Foren
-- FrankysWeb Exchange Blog
+  * Mailbox-Server (erster Server), später ggf. Edge-transport in DMZ.
+
+* **Installationspfade**
+
+  * Programmdateien auf C:, Datenbanken und Logs auf separaten Volumes (z. B. D: und E:).
+
+  * Per „Durchsuchen…“ im Dialog anpassen.
+
+### **Readiness Checks & Troubleshooting**
+
+* **Checkliste**
+
+  * DNS-Auflösung, AD-Replikation, benötigte Windows-Features.
+
+* **Fehlermeldungen**
+
+  * Per Doppelklick auf den Fehler-Text werden Logs geöffnet.
+
+  * „Erneut überprüfen“ führt Check erneut aus.
+
+* **Warnungen**
+
+  * Kleinere Warnungen (z. B. fehlendes Send-As-Recht) oft unkritisch; protokollieren und ggf. später beheben.
+
+---
+
+## **Nach der Installation**
+
+### **Erste Konfigurationsschritte im EAC**
+
+1. **Exchange Admin Center (EAC)** öffnen:
+
+   * URL: `https://<Hostname>/ecp`
+
+   * Anmeldung mit Domain-Admin ➔ empfiehlt Service-Account mit geringerem Recht für den Alltag.
+
+2. **Akzeptierte Domänen**
+
+   * Definiere interne und externe SMTP-Domänen unter „Nachrichtenfluss → Akzeptierte Domänen“.
+
+3. **E-Mail-Adressrichtlinien**
+
+   * Richte Standard-Adressmuster (z. B. Vorname.Nachname@firma.de) ein.
+
+### **Post-Installation-Aufgaben**
+
+* **Zertifikate binden**
+
+  * Unter „Server → Zertifikate“ neues SAN-Zertifikat importieren, IIS-Bindings und SMTP-Dienste erweitern.
+
+* **Postfachdatenbanken**
+
+  * Erstelle DB1 und DB2 auf getrennten Volumes, passe Wiederherstellungs­optionen an.
+
+* **Backups**
+
+  * Exchange-aware Backup-Lösung konfigurieren und Test-Wiederherstellung durchführen.
+
+---
+
+## **Wartung und Updates**
+
+* **Cumulative Updates**
+
+  * Immer zuerst in der Testumgebung installieren.
+
+  * Im EAC unter „Server → Updates“ lässt sich meist sofort erkennen, ob neue CU verfügbar sind.
+
+* **Health Checker**
+
+  * Nutze [Exchange HealthChecker Script](https://github.com/microsoft/CSS-Exchange/tree/main/HealthChecker) für automatisierte Prüfberichte.
+
+---
+
+## **Fehlerbehebung im GUI-Context**
+
+* **Setup-Logdateien**
+
+  * Pfad: `C:\ExchangeSetupLogs\`
+
+  * Suche in `ExchangeSetup.log` nach Schlüsselwort „Error“ und zeige Kontext im Editor.
+
+* **EAC-Fehler**
+
+  * Häufige Ursache: Zertifikat fehlt oder DNS falsch. Prüfe Export-/Import­pfade des Zertifikats.
+
+* **Dienste starten nicht**
+
+  * Dienste snap-in öffnen, auf „Starttyp“ achten, bei „Manuell“ auf „Automatisch“ setzen.
+
+---
+
+## **Ressourcen**
+
+* **Offizielle Doku**: [https://docs.microsoft.com/de-de/exchange/](https://docs.microsoft.com/de-de/exchange/)
+
+* **Deployment Assistant**: [https://assistants.microsoft.com](https://assistants.microsoft.com/)
+
+* **Health Checker**: [https://github.com/microsoft/CSS-Exchange/tree/main/HealthChecker](https://github.com/microsoft/CSS-Exchange/tree/main/HealthChecker)
+
+* **TechCommunity**: [https://techcommunity.microsoft.com/t5/exchange/ct-p/Exchange](https://techcommunity.microsoft.com/t5/exchange/ct-p/Exchange)
