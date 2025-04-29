@@ -106,6 +106,10 @@ Diese Anleitung beschreibt Schritt für Schritt die Bereitstellung eines Microso
 
 ### **Setup-Assistent starten**
 
+![Setup-Assistent starten](images/setup-wizard-start.png)
+
+Der erste Dialog des Exchange-Setup-Assistenten begrüßt Sie und zeigt eine Übersicht der nächsten Schritte. Klicken Sie auf **Weiter**, um zur Update-Prüfung zu gelangen.
+
 **Setup.exe doppelklicken** oder in PowerShell:
 
 ```ps
@@ -119,51 +123,33 @@ Diese Anleitung beschreibt Schritt für Schritt die Bereitstellung eines Microso
 
 1. **Updates suchen**
 
-   * Wähle „Mit dem Internet verbinden und nach Updates suchen“, um Patches automatisch zu laden.
+   ![Updates suchen](images/check-for-updates.png)
+
+   Dieser Dialog fragt, ob das Setup online nach den neuesten Cumulative Updates suchen soll. Nutzen Sie **Mit dem Internet verbinden und nach Updates suchen**, wenn der Server Internetzugang hat.
 
 2. **Lizenzbedingungen**
 
-   * Einwilligung per Checkbox.
+   ![Lizenzbedingungen](images/license-agreement.png)
+
+   Lesen Sie den Endbenutzer-Lizenzvertrag und aktivieren Sie die Checkbox **Ich akzeptiere die Bedingungen des Lizenzvertrags**, um fortzufahren.
 
 3. **Bereitstellungsoptionen**
 
-   * Standard­installation vs. benutzerdefiniert:
+   ![Bereitstellungsoptionen](images/deployment-options.png)
 
-     * **Standard**: Empfohlen für Einsteiger; installiert Mailbox-Rolle und Management Tools.
-
-     * **Benutzerdefiniert**: Wähle gezielt Mailbox, Edge Transport, oder nur Management-Tools aus.
+   Wählen Sie hier den Installationsmodus. Die **Standard**-Option installiert typische Komponenten, während **Benutzerdefiniert** erweiterte Einstellungen erlaubt (in den meisten Fällen reicht Standard).
 
 ### **Rollenauswahl und Pfad-Konfiguration**
 
-* **Organisation**
+![Rollenauswahl und Pfad-Konfiguration](images/role-path-selection.png)
 
-  * Gib einen eindeutigen Namen ohne Leerzeichen an.
-
-* **Rollen**
-
-  * Mailbox-Server (erster Server), später ggf. Edge-transport in DMZ.
-
-* **Installationspfade**
-
-  * Programmdateien auf C:, Datenbanken und Logs auf separaten Volumes (z. B. D: und E:).
-
-  * Per „Durchsuchen…“ im Dialog anpassen.
+In diesem Schritt wählen Sie die **Mailbox-Serverrolle** aus und legen das Verzeichnis für Programmdaten (z.B. C:\Program Files) und Datenbanken (z.B. D:\ExchangeDatabases) fest.
 
 ### **Readiness Checks & Troubleshooting**
 
-* **Checkliste**
+![Readiness Checks](images/readiness-checks.png)
 
-  * DNS-Auflösung, AD-Replikation, benötigte Windows-Features.
-
-* **Fehlermeldungen**
-
-  * Per Doppelklick auf den Fehler-Text werden Logs geöffnet.
-
-  * „Erneut überprüfen“ führt Check erneut aus.
-
-* **Warnungen**
-
-  * Kleinere Warnungen (z. B. fehlendes Send-As-Recht) oft unkritisch; protokollieren und ggf. später beheben.
+Exchange führt nun eine detaillierte Prüfung aller Voraussetzungen durch. Rote Fehler müssen behoben werden, bevor Sie auf **Installieren** klicken können.
 
 ---
 
