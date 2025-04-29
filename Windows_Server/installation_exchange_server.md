@@ -2,45 +2,26 @@
 
 ### **Inhaltsverzeichnis**
 
-1. [Einleitung](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#einleitung)
-
-2. [Planungsphase](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#planungsphase)
-
-   1. [Dokumentation und Tools](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#dokumentation-und-tools)
-
-   2. [Testumgebung](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#testumgebung)
-
-   3. [Systemanforderungen](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#systemanforderungen)
-
-3. [Vorbereitung](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#vorbereitung)
-
-   1. [Voraussetzungen installieren](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#voraussetzungen-installieren)
-
-   2. [Active Directory Vorbereitung (optional)](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#active-directory-vorbereitung-optional)
-
-4. [Installation mit dem GUI-Installer](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#installation-mit-dem-gui-installer)
-
-   1. [Setup-Medium bereitstellen](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#setup-medium-bereitstellen)
-
-   2. [Setup-Assistent starten](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#setup-assistent-starten)
-
-   3. [Wizard-Schritte im Detail](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#wizard-schritte-im-detail)
-
-   4. [Rollenauswahl und Pfad-Konfiguration](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#rollenauswahl-und-pfad-konfiguration)
-
-   5. [Readiness Checks & Troubleshooting](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#readiness-checks--troubleshooting)
-
-5. [Nach der Installation](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#nach-der-installation)
-
-   1. [Erste Konfigurationsschritte im EAC](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#erste-konfigurationsschritte-im-eac)
-
-   2. [Post-Installation-Aufgaben](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#post-installation-aufgaben)
-
-6. [Wartung und Updates](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#wartung-und-updates)
-
-7. [Fehlerbehebung im GUI-Context](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#fehlerbehebung-im-gui-context)
-
-8. [Ressourcen](https://chatgpt.com/c/681097c6-b910-800f-804a-e5979e201d16#ressourcen)
+1. [Einleitung](#einleitung)
+2. [Planungsphase](#planungsphase)
+   1. [Dokumentation und Tools](#dokumentation-und-tools)
+   2. [Testumgebung](#testumgebung)
+   3. [Systemanforderungen](#systemanforderungen)
+3. [Vorbereitung](#vorbereitung)
+   1. [Voraussetzungen installieren](#voraussetzungen-installieren)
+   2. [Active Directory Vorbereitung (optional)](#active-directory-vorbereitung-optional)
+4. [Installation mit dem GUI-Installer](#installation-mit-dem-gui-installer)
+   1. [Setup-Medium bereitstellen](#setup-medium-bereitstellen)
+   2. [Setup-Assistent starten](#setup-assistent-starten)
+   3. [Wizard-Schritte im Detail](#wizard-schritte-im-detail)
+   4. [Rollenauswahl und Pfad-Konfiguration](#rollenauswahl-und-pfad-konfiguration)
+   5. [Readiness Checks & Troubleshooting](#readiness-checks--troubleshooting)
+5. [Nach der Installation](#nach-der-installation)
+   1. [Erste Konfigurationsschritte im EAC](#erste-konfigurationsschritte-im-eac)
+   2. [Post-Installation-Aufgaben](#post-installation-aufgaben)
+6. [Wartung und Updates](#wartung-und-updates)
+7. [Fehlerbehebung im GUI-Context](#fehlerbehebung-im-gui-context)
+8. [Ressourcen](#ressourcen)
 
 ---
 
