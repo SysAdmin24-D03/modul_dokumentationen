@@ -1,6 +1,6 @@
 # Weiterbildungsmöglichkeiten 
 
-## 🎓 Kurse & Lernpfade
+## 🎓 Kurse & Lernpfade mit kostenlosen Angeboten
 
 - [NetAcademy (Cisco)](https://www.netacad.com)  
   > Offizielle Lernplattform von Cisco – ideal für Netzwerktechnik, CCNA-Vorbereitung und Cybersicherheit.
@@ -20,18 +20,19 @@
 - [Cybrary](https://www.cybrary.it)  
   > Kostenlose und kostenpflichtige Kurse für IT-Security, SOC, Cloud und Zertifizierungsvorbereitung.
 
-- [INE](https://ine.com)  
-  > Plattform für fortgeschrittene Cybersecurity-Themen wie Offensive Security & Networking.
-
-- [Pluralsight](https://www.pluralsight.com)  
-  > Hochqualitative Videotrainings zu IT- und DevOps-Themen, oft kostenlos über GitHub Education.
-
 - [SANS Cyber Aces](https://www.cyberaces.org)  
   > Kostenloser Einstieg in Netzwerke, Betriebssysteme und Sicherheitsgrundlagen.
 
 - [OpenSecurityTraining](https://opensecuritytraining.info)  
   > Tiefgehende Vorlesungen zu Themen wie Reverse Engineering, Exploits und Malware.
 
+## 🎓 Kurse & Lernpfade __ohne__ kostenlose Angebote
+
+- [INE](https://ine.com)  
+  > Plattform für fortgeschrittene Cybersecurity-Themen wie Offensive Security & Networking.
+
+- [Pluralsight](https://www.pluralsight.com)  
+  > Hochqualitative Videotrainings zu IT- und DevOps-Themen, oft kostenlos über GitHub Education.
 
 ## 🧪 Interaktive Labs & Hacking-Plattformen
 
