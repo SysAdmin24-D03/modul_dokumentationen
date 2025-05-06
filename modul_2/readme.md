@@ -214,54 +214,97 @@ Dieses Teilmodul beleuchtet die wirtschaftliche Seite der IT, ihre Größe, wich
 
 ---
 
-## Teilmodul 2.3: Felder der IT
+## Teilmodul 2.2: Der IT-Markt
 
-Die IT ist ein sehr breites Feld mit vielen Spezialisierungsrichtungen. Dieses Teilmodul stellt die wichtigsten davon vor.
+Dieses Teilmodul beleuchtet die wirtschaftliche Seite der IT – ihre Größe, wichtige Akteure und zukünftige Trends.
 
-### 1. Überblick über die IT-Felder
+---
 
-IT beeinflusst fast alle Lebensbereiche und bietet daher vielfältige Tätigkeitsfelder. Die wichtigsten lassen sich grob in die Bereiche Software, Hardware/Netzwerk, Daten und Sicherheit einteilen, ergänzt durch Dienstleistungen.
+### 1. Überblick über den IT-Markt
 
-### 2. Wichtige Felder der IT
+* **Definition:** Der IT-Markt umfasst alle wirtschaftlichen Aktivitäten rund um die Entwicklung, Bereitstellung und Nutzung von Informationstechnologie – darunter **Hardware**, **Software**, **IT-Dienstleistungen** und **Telekommunikation**.
+* **Bedeutung für die globale Wirtschaft:**
+  * **Wirtschaftsmotor:** Einer der größten und am schnellsten wachsenden Märkte weltweit – treibt die digitale Transformation voran.
+  * **Innovationsführer:** Technologien wie **KI**, **Cloud**, **IoT** schaffen neue Geschäftsmodelle und verbessern Prozesse.
+  * **Beschäftigungsfaktor:** Schafft Millionen hochqualifizierter Arbeitsplätze weltweit.
 
-* **Softwareentwicklung:**
-    * **Aufgabe:** Design, Entwicklung, Testen und Wartung von Software (Betriebssysteme, Anwendungen, Webseiten, Apps).
-    * **Werkzeuge:** Programmiersprachen (Java, Python, C#, JavaScript etc.), Frameworks, Entwicklungsumgebungen (IDEs).
-* **Netzwerktechnik:**
-    * **Aufgabe:** Planung, Aufbau, Verwaltung und Sicherung von Computernetzwerken (LAN, WAN, Internet, Intranet).
-    * **Themen:** Router, Switches, Firewalls, Netzwerkprotokolle (TCP/IP), Netzwerksicherheit.
-* **Datenbankmanagement:**
-    * **Aufgabe:** Erstellung, Verwaltung, Sicherung und Optimierung von Datenbanken zur effizienten Datenspeicherung und -abfrage.
-    * **Themen:** Datenbankmodelle (relational/SQL, NoSQL), Datenintegrität, Performance Tuning, Backups.
-* **Cybersicherheit:**
-    * **Aufgabe:** Schutz von IT-Systemen, Netzwerken und Daten vor Bedrohungen (Hacker, Malware, Datenlecks).
-    * **Themen:** Sicherheitsrichtlinien, Firewalls, Verschlüsselung, Penetrationstests, Incident Response, Sicherheitsaudits.
-* **Cloud Computing:**
-    * **Aufgabe:** Bereitstellung und Verwaltung von IT-Ressourcen (Server, Speicher, Datenbanken, Software) über das Internet (die "Cloud").
-    * **Themen:** Cloud-Modelle (IaaS, PaaS, SaaS), Cloud-Anbieter (AWS, Azure, GCP), Migration, Cloud-Sicherheit.
-* **Systemadministration:** (Siehe auch Modul 2.5)
-    * **Aufgabe:** Installation, Konfiguration, Wartung und Überwachung von IT-Systemen (Server, Betriebssysteme).
-    * **Themen:** Benutzerverwaltung, Backups, Updates/Patches, Performance-Überwachung, Fehlerbehebung.
-* **IT-Support:** (Siehe auch Modul 2.4)
-    * **Aufgabe:** Unterstützung von Endbenutzern bei technischen Problemen mit Hard- und Software.
-    * **Themen:** Fehleranalyse, Problemlösung, Installation, Benutzeranleitung.
-* **Datenwissenschaft (Data Science) & KI:**
-    * **Aufgabe:** Analyse großer Datenmengen (Big Data) zur Gewinnung von Erkenntnissen, Entwicklung von Vorhersagemodellen, Implementierung von KI-Lösungen.
-    * **Themen:** Statistik, maschinelles Lernen, Datenvisualisierung, Programmierung (Python, R).
+---
 
-### 3. Kategorien der Informationstechnologie
+### 2. Marktdaten und Trends
 
-Man kann die IT auch nach der Art der Produkte und Dienstleistungen kategorisieren:
+* **Marktwert:** Globaler IT-Markt im Billionen-Dollar-Bereich mit konstantem Wachstum.
+* **Wichtige Wachstumstreiber:**
+  * **Digitalisierung:** Transformation analoger Prozesse in digitale.
+  * **Cloud Computing:** Auslagerung von Rechenleistung und Speicher in die Cloud.
+  * **Internet of Things (IoT):** Vernetzung von Geräten in Alltag und Industrie.
+  * **Cybersecurity:** Wachsende Bedrohungen erfordern bessere Sicherheitslösungen.
+  * **Datenanalyse & KI:** Smarte Nutzung großer Datenmengen für Entscheidungen.
+* **Zukunftsaussichten:** Hohes Wachstumspotenzial in Bereichen wie **KI**, **maschinelles Lernen**, **Cloud**, **Cybersecurity**, **IoT**.
 
-* **Hardware und Infrastruktur:**
-    * **Definition:** Alle physischen Komponenten.
-    * **Beispiele:** Server, Desktop-Computer, Laptops, Smartphones, Tablets, Router, Switches, Kabel, Rechenzentren.
-* **Software und Anwendungen:**
-    * **Definition:** Programme und Systeme, die auf der Hardware laufen.
-    * **Beispiele:** Betriebssysteme (Windows, Linux), Anwendungssoftware (Office, Photoshop, SAP), Datenbanken, Webserver, Mobile Apps.
-* **Dienstleistungen und Beratung:**
-    * **Definition:** Unterstützung und Services rund um die IT.
-    * **Beispiele:** IT-Support (Helpdesk), IT-Beratung (Strategie, Implementierung), IT-Management, Schulungen, Cloud-Dienste, Outsourcing.
+---
+
+### 3. Hauptakteure und Marktanteile
+
+* **Marktführer:** 
+  * **Apple**, **Microsoft**, **Amazon (AWS)**, **Google (Alphabet)**, **IBM**, **Oracle**, **SAP**.
+* **Innovatoren:** 
+  * Start-ups und mittelständische Unternehmen sorgen für frische Impulse und Innovation.
+* **Marktkonzentration:** 
+  * In vielen Bereichen (z. B. Betriebssysteme, Cloud, Suchmaschinen) dominieren wenige Anbieter den Großteil des Marktes.
+
+---
+
+### 4. Regionale Märkte
+
+| Region        | Merkmale & Schwerpunkte |
+|---------------|--------------------------|
+| **Nordamerika** | Innovationsführerschaft (Silicon Valley), hohe Investitionen in Cloud und KI |
+| **Europa**       | Datenschutzfokus (DSGVO), Smart City, Industrie 4.0, stark reguliert |
+| **Asien-Pazifik** | Schnelles Wachstum (v. a. China, Indien), Mobiltechnologie, E-Commerce, staatliche Förderung |
+
+---
+
+### 5. Wichtige Technologien im Marktkontext
+
+#### **Cloud Computing**
+* **Definition:** Bereitstellung von IT-Ressourcen (z. B. Rechenleistung, Speicher, Software) über das Internet.
+* **Vorteile:** Skalierbarkeit, Flexibilität, Kosteneffizienz.
+* **Große Anbieter:** **Amazon Web Services (AWS)**, **Microsoft Azure**, **Google Cloud Platform (GCP)**.
+
+#### **Künstliche Intelligenz (KI) & Maschinelles Lernen (ML)**
+* **Anwendungen:** Automatisierung, Analyse großer Datenmengen, Empfehlungssysteme, Chatbots, Spracherkennung, autonome Fahrzeuge.
+
+#### **Internet of Things (IoT)**
+* **Anwendungen:** Smart Homes, Smart Cities, Industrie 4.0, Wearables, Gesundheitsmonitoring.
+
+#### **Cybersecurity**
+* **Wichtigkeit:** Schutz vor Datendiebstahl, Angriffsabwehr, Betriebssicherheit.
+* **Anbieter & Lösungen:** Firewalls, Antivirus, Identitätsmanagement – Anbieter wie **Cisco**, **Palo Alto Networks**, **CrowdStrike**, **Symantec**.
+
+---
+
+### 6. Wachstumsmöglichkeiten im IT-Markt
+
+* **Neue Technologien:** 
+  * **KI**, **Blockchain**, **Quantencomputing**, **5G/6G**, **Edge Computing** bieten hohe Innovationskraft.
+* **Wachstumsbranchen:**
+  * **Gesundheit** (Telemedizin, Digital Health)
+  * **FinTech** (digitale Finanzdienstleistungen)
+  * **E-Commerce**, **EdTech**, **grüne IT**
+* **Regionale Chancen:**
+  * **Schwellenländer:** Digitalisierung noch im Aufbau (Asien, Afrika, Lateinamerika).
+  * **Reife Märkte:** Modernisierung bestehender IT-Infrastrukturen (Nordamerika, Europa).
+
+---
+
+### 7. Herausforderungen und Risiken
+
+* **Datenschutz & Sicherheit:** Zunehmende Angriffe + strenge Regulierungen (z. B. DSGVO).
+* **Regulatorische Hürden:** Unterschiedliche gesetzliche Rahmenbedingungen weltweit.
+* **Infrastrukturabhängigkeit:** Ausfälle bei Netzwerken oder Cloud-Anbietern haben weitreichende Folgen.
+* **Fachkräftemangel:** IT-Talente sind stark gefragt, aber schwer zu finden.
+* **Wettbewerbsdruck & Marktübersättigung:** Schnelle Innovationszyklen und starker Preiswettbewerb.
+* **Technologische Disruption:** Neue Technologien können bestehende Geschäftsmodelle rasch ablösen.
 
 ---
 
@@ -269,20 +312,25 @@ Man kann die IT auch nach der Art der Produkte und Dienstleistungen kategorisier
 
 In Unternehmen gibt es spezialisierte Rollen, um die vielfältigen Aufgaben im IT-Bereich abzudecken.
 
-* **IT-Manager:**
-    * **Aufgaben:** Entwickelt die IT-Strategie, verantwortet das IT-Budget, leitet das IT-Personal, überwacht Projekte und die gesamte IT-Infrastruktur. Trifft strategische Entscheidungen.
-* **Netzwerkadministrator:**
-    * **Aufgaben:** Plant, implementiert, verwaltet und sichert das Computernetzwerk (LAN, WAN, WLAN). Sorgt für Konnektivität und Verfügbarkeit. Behebt Netzwerkprobleme.
-* **Softwareentwickler (Developer):**
-    * **Aufgaben:** Entwirft, programmiert, testet und wartet Softwareanwendungen nach spezifischen Anforderungen. Arbeitet oft in Teams (z.B. nach agilen Methoden wie Scrum).
-* **IT-Support-Spezialist (Helpdesk):**
-    * **Aufgaben:** Ist die erste Anlaufstelle für Benutzer bei technischen Problemen. Löst Probleme, installiert Hard-/Software, verwaltet Benutzerkonten, gibt Schulungen.
-* **Sicherheitsexperte (Cybersecurity Analyst/Engineer):**
-    * **Aufgaben:** Schützt die IT-Systeme vor Angriffen. Überwacht Sicherheitsereignisse, analysiert Bedrohungen, führt Sicherheitstests (z.B. Penetrationstests) durch, entwickelt Sicherheitsrichtlinien und reagiert auf Sicherheitsvorfälle.
-* **Systemadministrator ("Sysadmin"):**
-    * **Aufgaben:** Installiert, konfiguriert und wartet die Server und Betriebssysteme. Sorgt für Systemverfügbarkeit und -leistung. Führt Updates, Patches und Backups durch. Verwaltet Benutzerkonten und Berechtigungen.
-* **Datenbankadministrator (DBA):**
-    * **Aufgaben:** Installiert, konfiguriert, verwaltet und sichert Datenbanken. Optimiert die Datenbankleistung, stellt Datenintegrität sicher, führt Backups und Wiederherstellungen durch.
+### Übersicht über zentrale IT-Rollen
+
+| Rolle                       | Hauptaufgaben                                                                                     |
+|----------------------------|----------------------------------------------------------------------------------------------------|
+| **IT-Manager**             | Strategische Planung, Budgetverantwortung, Leitung des IT-Teams, Projektüberwachung               |
+| **Netzwerkadministrator**  | Planung, Verwaltung und Sicherung von Netzwerken (LAN/WAN/WLAN), Fehlerbehebung                   |
+| **Softwareentwickler**     | Entwicklung, Test und Wartung von Software, agile Zusammenarbeit (z. B. Scrum)                    |
+| **IT-Support (Helpdesk)**  | Technischer Anwendersupport, Installation von Hard-/Software, Kontenverwaltung, Schulungen        |
+| **Cybersecurity-Analyst**  | Sicherheitsüberwachung, Penetrationstests, Reaktion auf Angriffe, Richtlinienentwicklung          |
+| **Systemadministrator**    | Verwaltung von Servern und Betriebssystemen, Patches, Backups, Benutzerrechte                     |
+| **Datenbankadministrator** | Installation, Wartung und Optimierung von Datenbanken, Sicherstellung von Integrität und Verfügbarkeit |
+
+### Kompetenzen & Soft Skills in IT-Rollen
+
+* **Technisches Know-how:** Abhängig von der Rolle – z. B. Netzwerktechnik, Programmierung, Systemadministration.
+* **Problemlösungsfähigkeit:** Wichtig für Support, Admins, Entwickler.
+* **Kommunikation:** Für Zusammenarbeit im Team und mit Endnutzern (besonders im Support oder Management).
+* **Eigenverantwortung & Zuverlässigkeit:** Besonders bei sicherheitskritischen oder betrieblichen Aufgaben.
+* **Lernbereitschaft:** Technologien entwickeln sich ständig – lebenslanges Lernen ist Pflicht.
 
 ---
 
@@ -290,26 +338,43 @@ In Unternehmen gibt es spezialisierte Rollen, um die vielfältigen Aufgaben im I
 
 Dieses Teilmodul gibt einen Einblick in den typischen Arbeitsalltag eines Systemadministrators.
 
-* **Morgenroutine (z.B. ab 9:00 Uhr):**
+### Tagesablauf eines Systemadministrators (Beispiel)
+
+* **09:00 Uhr** – Systemprotokolle prüfen, Monitoring-Tools auswerten, Dienste checken  
+* **10:00 Uhr** – Updates/Patches einspielen, Probleme beheben, Supportanfragen bearbeiten  
+* **13:00 Uhr** – Projektarbeit (z. B. neue Server, Migrationen, Backuplösungen)  
+* **15:00 Uhr** – Teammeeting oder Abstimmung mit anderen Abteilungen  
+* **17:00 Uhr** – Letzter Systemcheck, Dokumentation, ggf. Übergabe an Bereitschaft  
+* **Abends/Wochenende** – Rufbereitschaft, geplante Wartung außerhalb der Geschäftszeiten
+
+### Typische Aufgaben
+
+* **Morgenroutine:**
     * Überprüfung der **Systemprotokolle (Logs)** auf Fehler oder Warnungen der letzten Nacht.
     * Check der **Überwachungstools** (Monitoring Systems), die den Zustand der Server (CPU-Auslastung, Speicher, Netzwerk etc.) anzeigen.
-    * Durchführung von **Routine-Systemchecks** (z.B. Status wichtiger Dienste, verfügbarkeit kritischer Anwendungen).
-* **Vormittagsaufgaben:**
-    * **Aktualisierung & Patch-Management:** Einspielen wichtiger Sicherheitsupdates oder Funktionsupdates für Betriebssysteme und Anwendungen (oft nach Tests in einer separaten Umgebung).
-    * **Problembehebung:** Bearbeitung von Problemen, die über Nacht aufgetreten sind oder von Benutzern gemeldet wurden.
-    * **Support-Anfragen:** Beantwortung komplexerer technischer Anfragen (Second/Third Level Support).
-* **Nachmittagsaufgaben:**
-    * **Projektarbeit:** Arbeit an längerfristigen Projekten, z.B. Planung und Implementierung neuer Server, Verbesserung der Backup-Strategie, Migration auf neue Systeme.
-    * **Meetings:** Abstimmung mit dem IT-Team, anderen Abteilungen oder externen Dienstleistern.
-* **Abschluss des Arbeitstages (z.B. 17:00 Uhr):**
-    * Überprüfung der erledigten Aufgaben.
-    * Letzte Systemchecks, um sicherzustellen, dass alles stabil läuft.
-    * Ggf. Übergabe an Kollegen oder Dokumentation für die Nachtschicht/Rufbereitschaft.
-* **Rufbereitschaft und Wochenendarbeit:**
-    * **Rufbereitschaft:** Systemadministratoren müssen oft außerhalb der normalen Arbeitszeiten erreichbar sein, um auf dringende Notfälle (z.B. Serverausfall) reagieren zu können.
-    * **Wochenendarbeit:** Größere Wartungsarbeiten oder Updates, die die Produktivsysteme betreffen und nicht während der Geschäftszeiten durchgeführt werden können (um Ausfallzeiten zu minimieren), werden oft am Wochenende erledigt.
+    * Durchführung von **Routine-Systemchecks** (z. B. Status wichtiger Dienste, Verfügbarkeit kritischer Anwendungen).
 
-**Wichtigkeit der Rolle:** Systemadministratoren sind entscheidend für den stabilen und sicheren Betrieb der gesamten IT-Infrastruktur eines Unternehmens.
+* **Vormittagsaufgaben:**
+    * **Aktualisierung & Patch-Management:** Einspielen wichtiger Sicherheits- oder Funktionsupdates.
+    * **Problembehebung:** Analyse und Lösung gemeldeter oder überwachter Störungen.
+    * **Support-Anfragen:** Bearbeitung von Second- oder Third-Level-Tickets.
+
+* **Nachmittagsaufgaben:**
+    * **Projektarbeit:** Planung und Umsetzung von IT-Projekten (z. B. neue Infrastruktur, Migrationen, Performanceverbesserung).
+    * **Meetings:** Koordination mit Kollegen, Fachabteilungen oder externen Dienstleistern.
+
+* **Tagesabschluss:**
+    * Rückblick auf erledigte Aufgaben.
+    * Letzte System- und Dienstprüfungen.
+    * Dokumentation und ggf. Übergabe an den Bereitschaftsdienst.
+
+* **Rufbereitschaft und Wochenendarbeit:**
+    * **Rufbereitschaft:** Verfügbarkeit bei Störungen außerhalb regulärer Zeiten.
+    * **Wochenendarbeit:** Durchführung geplanter Wartungsfenster zur Vermeidung von Ausfallzeiten im Tagesgeschäft.
+
+### Wichtigkeit der Rolle
+
+Systemadministratoren sind entscheidend für den stabilen, sicheren und performanten Betrieb der gesamten IT-Infrastruktur eines Unternehmens. Ohne sie würde kein Server, kein Netzwerk und keine Anwendung dauerhaft zuverlässig funktionieren.
 
 ---
 
@@ -321,83 +386,64 @@ Hier schauen wir uns an, wie ein Computer im Inneren aufgebaut ist und wie die T
 
 * **Definition:** Beschreibt den **grundlegenden Aufbau** und die **Organisation** eines Computersystems, also wie die Hardwarekomponenten (Prozessor, Speicher, Ein-/Ausgabe) strukturiert sind und miteinander interagieren. Sie ist die Blaupause des Systems.
 * **Zusammenhang Hardware & Software:** Die Architektur legt fest, wie die Hardware funktioniert, und das Betriebssystem (Software) nutzt diese Architektur, um die Hardware zu steuern und Anwendungen eine Schnittstelle zu bieten.
-* **EVA-Prinzip:** Ein grundlegendes Konzept: **E**ingabe -> **V**erarbeitung -> **A**usgabe. Daten werden eingegeben (z.B. Tastatur), vom Computer verarbeitet (CPU, RAM) und dann ausgegeben (z.B. Monitor).
+* **EVA-Prinzip:** Ein grundlegendes Konzept: **E**ingabe → **V**erarbeitung → **A**usgabe. Daten werden eingegeben (z. B. Tastatur), vom Computer verarbeitet (CPU, RAM) und dann ausgegeben (z. B. Monitor).
 
 ### 2. Zentraleinheit (CPU - Central Processing Unit)
 
 * **Funktion:** Das **"Gehirn"** des Computers. Führt die Befehle von Programmen aus (Berechnungen, Logikoperationen) und steuert die meisten anderen Komponenten.
-* **Fetch-Decode-Execute Cycle:** Der grundlegende Arbeitszyklus der CPU:
-    1.  **Fetch (Holen):** Die CPU holt den nächsten Befehl aus dem Arbeitsspeicher (RAM).
-    2.  **Decode (Dekodieren):** Die CPU entschlüsselt den Befehl, um zu verstehen, was zu tun ist.
-    3.  **Execute (Ausführen):** Die CPU führt die Operation aus (z.B. eine Berechnung, Daten verschieben).
-    * Dieser Zyklus wiederholt sich Milliarden Mal pro Sekunde (gemessen in Gigahertz, GHz).
+* **Fetch-Decode-Execute Cycle:**
+    1. **Fetch (Holen):** Die CPU holt den nächsten Befehl aus dem Arbeitsspeicher (RAM).
+    2. **Decode (Dekodieren):** Die CPU entschlüsselt den Befehl.
+    3. **Execute (Ausführen):** Die CPU führt die Operation aus (z. B. Berechnung, Daten verschieben).
 * **Steuerung:** Die CPU koordiniert auch die Arbeit anderer Teile wie RAM, Grafikkarte und Festplatten.
 
 ### 3. Hauptspeicher (RAM - Random Access Memory)
 
-* **Funktion:** Der **schnelle Arbeitsspeicher** oder das **"Kurzzeitgedächtnis"** des Computers. Hier werden Daten und Programme gespeichert, die gerade **aktiv** von der CPU benötigt werden. Der schnelle Zugriff ist entscheidend für die Systemleistung.
-* **Volatilität:** RAM ist **flüchtig**. Das bedeutet, die Daten im RAM bleiben nur erhalten, solange der Computer **eingeschaltet** ist. Beim Ausschalten gehen sie verloren. Dauerhafte Speicherung erfolgt auf Festplatten/SSDs.
-* **Geschwindigkeit:** RAM ist viel schneller als Festplatten/SSDs. Technologien wie DDR (Double Data Rate) erhöhen die Übertragungsgeschwindigkeit. Die Menge an RAM (gemessen in Gigabyte, GB) beeinflusst, wie viele Programme gleichzeitig flüssig laufen können.
+* **Funktion:** Das **Kurzzeitgedächtnis** des Computers. Speichert Daten und Programme, die gerade von der CPU genutzt werden.
+* **Volatilität:** RAM ist **flüchtig** – beim Ausschalten gehen alle Daten verloren.
+* **Geschwindigkeit:** RAM ist sehr schnell. Moderne Varianten wie **DDR4/DDR5** bieten hohe Datenraten. Mehr RAM ermöglicht parallele Prozesse.
 
 ### 4. Festplatten und Speichermedien (Permanentspeicher)
 
-Diese dienen zur **dauerhaften** Speicherung von Daten (Betriebssystem, Programme, Deine Dateien), auch wenn der Computer ausgeschaltet ist.
-
 * **HDD (Hard Disk Drive):**
-    * **Technologie:** Speichert Daten **magnetisch** auf rotierenden Scheiben, die von einem Schreib-/Lesekopf abgetastet werden (mechanische Teile).
-    * **Vorteile:** Hohe Speicherkapazität zu relativ günstigen Preisen.
-    * **Nachteile:** Langsamer als SSDs, empfindlicher gegen Stöße.
-    * **Einsatz:** Große Datenmengen, Server, ältere oder günstigere PCs/Laptops.
-* **SSD (Solid-State Drive):**
-    * **Technologie:** Speichert Daten auf **Flash-Speicherchips** (wie USB-Sticks), keine beweglichen Teile.
-    * **Vorteile:** **Viel schneller** als HDDs (Systemstart, Programmstarts), robuster, leiser, energieeffizienter.
-    * **Nachteile:** Teurer pro Gigabyte als HDDs (Preisunterschied wird aber kleiner).
-    * **Einsatz:** Betriebssystemlaufwerk in den meisten modernen PCs/Laptops, schnelle Speichererweiterung.
-* **USB-Sticks / Externe Festplatten/SSDs:**
-    * **Funktion:** **Portable** Speichermedien für Datentransport und Backups. Werden über den USB-Anschluss verbunden.
-* **Optische Medien (CD, DVD, Blu-ray):**
-    * **Funktion:** Speichern Daten durch Laserabtastung. Heute seltener genutzt, hauptsächlich noch für Software-/Medien-Distribution oder Langzeitarchivierung.
+    * **Technologie:** Magnetische Speicherung auf rotierenden Scheiben.
+    * **Vorteile:** Günstig bei großer Kapazität.
+    * **Nachteile:** Mechanisch, langsam, empfindlich.
+* **SSD (Solid State Drive):**
+    * **Technologie:** Speicherchips, keine beweglichen Teile.
+    * **Vorteile:** Schnell, leise, robust, stromsparend.
+    * **Nachteile:** Teurer pro GB (aber zunehmend günstiger).
+* **USB-Sticks / Externe SSDs/HDDs:** Portable Speicherlösung für Datentransport und Backups.
+* **Optische Medien (CD/DVD/Blu-ray):** Laserbasierte Datenträger – heute selten.
 
 ### 5. Grafikkarte (GPU - Graphics Processing Unit)
 
-* **Funktion:** Eine spezialisierte Komponente zur **Berechnung und Darstellung von Grafiken und Videos**. Entlastet die CPU bei diesen Aufgaben.
-* **Grafikrendering:** Wandelt 3D-Modelle und 2D-Daten in die Pixel um, die auf dem Monitor angezeigt werden. Essentiell für Spiele, Videobearbeitung, CAD, 3D-Design.
-* **Parallelverarbeitung:** GPUs haben tausende kleiner Rechenkerne und können sehr viele Berechnungen *gleichzeitig* (parallel) durchführen. Das macht sie auch nützlich für wissenschaftliche Berechnungen, KI-Training und Kryptowährungs-Mining.
-* **Videoverarbeitung:** Beschleunigt das Abspielen (Dekodieren) und Erstellen (Kodieren) von Videos.
+* **Funktion:** Berechnet und rendert Bilddaten für den Monitor.
+* **Nutzung:** Wichtig für Gaming, Videoschnitt, 3D-Design, KI-Berechnungen.
+* **Merkmale:** Viele Rechenkerne, spezialisiert auf **Parallelverarbeitung**.
+* **Videoverarbeitung:** Unterstützt Video-Dekodierung und -Kodierung.
 
 ### 6. Motherboard (Hauptplatine)
 
-* **Funktion:** Die **zentrale Platine**, auf der alle wichtigen internen Komponenten (CPU, RAM, Grafikkarte, Speicherlaufwerke) eingesteckt oder verbunden sind. Es ermöglicht die **Kommunikation** zwischen allen Teilen.
+* **Funktion:** Zentrale Verbindungseinheit aller Komponenten.
 * **Anschlüsse & Slots:**
-    * **CPU-Sockel:** Hier wird der Prozessor eingesetzt.
-    * **RAM-Slots:** Hier werden die Arbeitsspeicher-Module eingesteckt.
-    * **PCIe-Slots (PCI Express):** Steckplätze für Erweiterungskarten, vor allem Grafikkarten, aber auch Netzwerkkarten, Soundkarten etc.
-    * **SATA-Anschlüsse:** Zum Verbinden von internen HDDs und SSDs.
-    * **M.2-Slots:** Moderner Anschluss für sehr schnelle SSDs direkt auf dem Motherboard.
-    * **Interne USB/Audio/Lüfter-Anschlüsse.**
-    * **Externe Anschlüsse (I/O Panel):** USB-Ports, Netzwerkanschluss (Ethernet), Audio-Buchsen, Video-Ausgänge (HDMI, DisplayPort – falls keine separate Grafikkarte genutzt wird), etc.
-* **Chipsatz:** Steuert den Datenfluss zwischen CPU, RAM und Peripheriegeräten.
-* **BIOS/UEFI:** Eine **Firmware** (Software, die fest in einem Chip gespeichert ist) auf dem Motherboard. Sie wird beim Start zuerst ausgeführt, initialisiert die Hardware und startet dann das Betriebssystem von der Festplatte. Ermöglicht auch grundlegende Hardware-Einstellungen vor dem OS-Start. UEFI ist der modernere Nachfolger von BIOS.
+    * **CPU-Sockel**, **RAM-Slots**, **PCIe-Steckplätze**, **SATA/M.2-Anschlüsse**.
+    * **I/O-Panel:** USB, Audio, Netzwerk, Video-Ausgänge.
+* **Chipsatz:** Koordiniert Datenfluss zwischen Komponenten.
+* **BIOS/UEFI:** Start-Firmware des Systems, konfigurierbar vor OS-Start.
 
 ### 7. Netzwerkverbindungen (Hardware)
 
-* **Ethernet-Adapter (Netzwerkkarte / LAN-Port):**
-    * Ermöglicht eine **kabelgebundene** Netzwerkverbindung über ein Ethernet-Kabel (RJ45-Stecker).
-    * Bietet oft die stabilste und schnellste Verbindung. Standard bei Desktop-PCs, oft auch bei Laptops.
-* **WLAN-Karte (Wireless LAN / WiFi):**
-    * Ermöglicht eine **drahtlose** Verbindung zu einem Netzwerk (über einen WLAN-Router/Access Point).
-    * Standard bei Laptops, Smartphones, Tablets. Kann bei Desktop-PCs nachgerüstet werden (als Karte oder USB-Adapter).
-    * Unterstützt verschiedene Standards (z.B. Wi-Fi 6, Wi-Fi 7) mit unterschiedlichen Geschwindigkeiten und Frequenzbändern (2.4 GHz, 5 GHz, 6 GHz).
+* **Ethernet (LAN):** Stabile kabelgebundene Verbindung (RJ45).
+* **WLAN-Karte (Wi-Fi):** Drahtlose Verbindung, unterstützt aktuelle Standards wie **Wi-Fi 6/7**.
 
-### 8. Stromversorgung (PSU - Power Supply Unit) & Kühlung
+### 8. Stromversorgung (PSU) & Kühlung
 
-* **Netzteil (PSU):**
-    * Wandelt den Wechselstrom aus der Steckdose in die verschiedenen Gleichspannungen um, die die Computerkomponenten benötigen.
-    * Die Leistung (gemessen in Watt) muss ausreichend für alle verbauten Komponenten sein. Eine stabile und hochwertige PSU ist wichtig für die Systemstabilität.
+* **Netzteil (PSU):** Wandelt Strom aus der Steckdose in nutzbare Spannungen für alle Komponenten.
 * **Kühlung:**
-    * Computerkomponenten (v.a. CPU und GPU) erzeugen bei Betrieb Wärme. Zu viel Hitze kann Leistung reduzieren und die Lebensdauer verkürzen.
-    * **Passive Kühlung:** Kühlkörper (Metallstrukturen mit großer Oberfläche) leiten Wärme ab, oft durch natürliche Luftzirkulation. Für Komponenten mit geringer Wärmeentwicklung.
-    * **Aktive Kühlung:** Nutzt **Lüfter**, um Luft über Kühlkörper zu bewegen und Wärme abzutransportieren (Standard für CPU, GPU, Netzteil, Gehäuse). **Flüssigkeitskühlung** (Wasserkühlung) ist eine noch effektivere, aber komplexere Methode, bei der Flüssigkeit die Wärme von den Komponenten zu einem Radiator transportiert, wo sie durch Lüfter abgeführt wird.
+    * **Passive Kühlung:** Kühlkörper ohne Lüfter – lautlos, weniger effizient.
+    * **Aktive Kühlung:** Lüfterbasierte Systeme – Standard in PCs.
+    * **Wasserkühlung:** Für leistungsintensive Systeme (Gaming, Server).
 
 ---
 
@@ -418,17 +464,20 @@ Diese Geräte bilden die Schnittstelle zwischen Dir und dem Computer.
 * **Scanner:** Digitalisierung von physischen Dokumenten oder Fotos.
 * **Webcam:** Aufnahme von Videobildern (und oft auch Ton).
 * **Joystick/Gamepad:** Steuerung für Spiele.
-* **Barcode-Leser:** Liest Strichcodes (z.B. an der Kasse).
+* **Barcode-Leser:** Liest Strichcodes (z. B. an der Kasse).
 * **Touchscreen:** (Siehe kombinierte Geräte).
 
 ### 3. Beispiele für Output-Geräte
 
 * **Monitor (Bildschirm):** Visuelle Anzeige von Text, Bildern, Videos, Benutzeroberflächen. Technologien: LCD, LED, OLED.
-* **Drucker:** Erstellt physische Ausdrucke von digitalen Dokumenten. Typen: Tintenstrahl (günstig, gut für Fotos), Laser (schnell, gut für Text), 3D-Drucker (erstellt physische Objekte).
+* **Drucker:**
+    * **Tintenstrahldrucker:** Günstig, gut für Fotos.
+    * **Laserdrucker:** Schnell, gut für Textdokumente.
+    * **3D-Drucker:** Erstellen dreidimensionale physische Objekte.
 * **Lautsprecher / Kopfhörer:** Ausgabe von Audio.
 * **Projektor (Beamer):** Projiziert das Bild auf eine große Fläche.
-* **Braille-Drucker / Braille-Zeile:** Spezialgeräte zur Ausgabe von Blindenschrift für sehbehinderte Menschen.
-* **Plotter:** Spezialdrucker für großformatige technische Zeichnungen (z.B. Baupläne).
+* **Braille-Drucker / Braille-Zeile:** Spezialgeräte zur Ausgabe von Blindenschrift.
+* **Plotter:** Spezialdrucker für großformatige technische Zeichnungen (z. B. Baupläne).
 
 ### 4. Kombinierte Input/Output-Geräte
 
@@ -436,11 +485,12 @@ Diese Geräte können sowohl Daten senden als auch empfangen.
 
 * **Touchscreen:** Ermöglicht Eingabe durch Berührung und zeigt gleichzeitig Informationen an (Output). Standard bei Smartphones, Tablets.
 * **Modem/Router:** Ermöglicht Netzwerkkommunikation. Empfängt Daten (Input) aus dem Internet und sendet Daten (Output) dorthin. Stellt oft auch das lokale Netzwerk (LAN/WLAN) bereit.
-* **Multifunktionsdrucker (Kombidrucker):** Vereint Drucker (Output), Scanner (Input), Kopierer (Input -> Output) und manchmal Fax (Input/Output) in einem Gerät.
+* **Multifunktionsdrucker (Kombidrucker):** Vereint Drucker (Output), Scanner (Input), Kopierer (Input → Output) und manchmal Fax (Input/Output) in einem Gerät.
 * **Headset:** Kombiniert Kopfhörer (Output) und Mikrofon (Input).
-* **Smart Displays (z.B. Amazon Echo Show, Google Nest Hub):** Zeigen Informationen an (Output) und nehmen Sprachbefehle oder Touch-Eingaben entgegen (Input).
+* **Smart Displays (z. B. Amazon Echo Show, Google Nest Hub):** Zeigen Informationen an (Output) und nehmen Sprachbefehle oder Touch-Eingaben entgegen (Input).
 
 ---
+
 
 ## Teilmodul 2.8: Arten von Computerkomponenten (Zusammenfassung/Vertiefung)
 
