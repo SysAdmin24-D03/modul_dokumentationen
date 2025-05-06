@@ -1,4 +1,4 @@
-# Ausführliche Dokumentation Modul 2: Vertiefung IT-Kenntnisse und Konzepte
+# Modul 2: Vertiefung IT-Kenntnisse und Konzepte
 
 ## Modulübersicht
 
