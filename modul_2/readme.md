@@ -14,6 +14,10 @@ Dieses Teilmodul gibt Dir einen grundlegenden Überblick darüber, was Informati
 
 * **Definition:** IT umfasst alle Technologien, die zur **Erfassung, Speicherung, Verarbeitung, Übertragung und Darstellung von Informationen** verwendet werden. Das beinhaltet sowohl die physischen Geräte (**Hardware**) als auch die Programme und Anweisungen (**Software**) sowie Netzwerke und Dienste.
 * **Relevanz:** IT ist heute das Rückgrat unserer Gesellschaft und Wirtschaft. Sie beeinflusst fast jeden Aspekt unseres Lebens, von der Kommunikation über die Arbeit bis zur Freizeit.
+* **Anwendungsbereiche:** IT kommt in nahezu allen Branchen zum Einsatz – z. B. in der Medizin (digitale Patientenakten), im Finanzwesen (Online-Banking), im Handel (E-Commerce), in der Bildung (E-Learning) und im Verkehr (Navigationssysteme).
+* **Entwicklungsgeschichte:** Die moderne IT entwickelte sich aus der Rechentechnik des 20. Jahrhunderts. Mit der Erfindung des Mikrochips, der Einführung des Internets und mobiler Geräte wurde sie immer leistungsfähiger und allgegenwärtiger.
+* **Aktuelle Trends:** Zu den wichtigsten Entwicklungen zählen Künstliche Intelligenz (KI), Cloud-Computing, das Internet der Dinge (IoT), Blockchain-Technologie und Cybersicherheit. Diese Trends prägen die Zukunft der digitalen Welt.
+
 
 ### 2. Geschichte der Informationstechnologie
 
@@ -24,50 +28,123 @@ Die IT hat eine lange Entwicklungsgeschichte:
     * **Schickards Rechenmaschine (1623):** Konnte addieren und subtrahieren, gilt als einer der ersten mechanischen Rechner.
     * **Pascaline (1642):** Von Blaise Pascal entwickelt, konnte durch wiederholtes Addieren/Subtrahieren auch multiplizieren und dividieren.
     * **Leibniz' Rechenmaschine (1673):** Von Gottfried Wilhelm Leibniz, beherrschte alle vier Grundrechenarten und nutzte bereits das **duale Zahlensystem (Binärsystem)**, die Grundlage moderner Computer.
+
 * **Entwicklung der ersten Computer:**
     * **ENIAC (1945):** Der erste voll funktionsfähige, elektronische, programmierbare Großrechner. Er nutzte Vakuumröhren und war riesig.
-    * **UNIVAC (1951):** Der erste kommerziell verfügbare Computer, bekannt z.B. durch den Einsatz bei der US-Volkszählung.
+    * **UNIVAC (1951):** Der erste kommerziell verfügbare Computer, bekannt z. B. durch den Einsatz bei der US-Volkszählung.
+    * **Transistoren & integrierte Schaltkreise (1950er–1970er):** Ersetzten Vakuumröhren, machten Computer kleiner, schneller und energieeffizienter.
+
 * **Aufkommen von Personal Computern (PCs) und dem Internet:**
     * **Personal Computer:** Machten Computer für Einzelpersonen zugänglich. Wichtige Meilensteine waren der **Apple II (1977)** und der **IBM PC (1981)**, der einen Standard für Hardware schuf.
     * **Internet:** Entstand aus dem **ARPANET (1969)**, einem Forschungsprojekt. Die Einführung des **TCP/IP-Protokolls (1983)** bildete die technische Grundlage. Das **World Wide Web (WWW, 1989)**, entwickelt von Tim Berners-Lee, machte das Internet durch Webseiten und Browser benutzerfreundlich.
 
+* **Mobilisierung und Digitalisierung (1990er–2000er):**
+    * **Mobiltelefone und später Smartphones:** Revolutionierten den Zugang zu IT. Das iPhone (2007) veränderte grundlegend die Art, wie Menschen Informationen nutzen und kommunizieren.
+    * **Digitale Revolution:** Einführung von Cloud-Diensten, sozialen Medien, E-Commerce und digitaler Kommunikation.
+
+* **Aktuelle Entwicklungen (2010er–2020er):**
+    * **Künstliche Intelligenz (KI):** Systeme wie Sprachassistenten, autonome Fahrzeuge und Chatbots nutzen KI, um menschliche Denkprozesse nachzubilden.
+    * **Big Data & Cloud-Computing:** Erlauben die Verarbeitung riesiger Datenmengen in Echtzeit über das Internet.
+    * **Blockchain & Kryptowährungen:** Neue Formen der digitalen Wertübertragung, z. B. durch Bitcoin und Ethereum.
+    * **Internet der Dinge (IoT):** Vernetzt Alltagsgeräte wie Kühlschränke, Uhren oder Autos mit dem Internet.
+
+* **Zukunftsausblick:**
+    * **Quantencomputing:** Verspricht eine drastische Leistungssteigerung in der Rechenkapazität.
+    * **Virtuelle und erweiterte Realität (VR/AR):** Werden zunehmend im Bildungsbereich, in der Industrie und im Gaming eingesetzt.
+    * **Ethik & Nachhaltigkeit:** Künftige IT-Entwicklung muss sich mit Fragen zu Datenschutz, Energieverbrauch und sozialer Verantwortung auseinandersetzen.
+### 2. Geschichte der Informationstechnologie
+
+Die IT hat eine lange Entwicklungsgeschichte:
+
+* **Ursprünge der Rechenmaschinen:**
+    * **Abakus (ca. 2400 v. Chr.):** Eines der ältesten bekannten Rechenhilfsmittel, hauptsächlich zum Addieren und Subtrahieren.
+    * **Schickards Rechenmaschine (1623):** Konnte addieren und subtrahieren, gilt als einer der ersten mechanischen Rechner.
+    * **Pascaline (1642):** Von Blaise Pascal entwickelt, konnte durch wiederholtes Addieren/Subtrahieren auch multiplizieren und dividieren.
+    * **Leibniz' Rechenmaschine (1673):** Von Gottfried Wilhelm Leibniz, beherrschte alle vier Grundrechenarten und nutzte bereits das **duale Zahlensystem (Binärsystem)**, die Grundlage moderner Computer.
+
+* **Entwicklung der ersten Computer:**
+    * **ENIAC (1945):** Der erste voll funktionsfähige, elektronische, programmierbare Großrechner. Er nutzte Vakuumröhren und war riesig.
+    * **UNIVAC (1951):** Der erste kommerziell verfügbare Computer, bekannt z. B. durch den Einsatz bei der US-Volkszählung.
+    * **Transistoren & integrierte Schaltkreise (1950er–1970er):** Ersetzten Vakuumröhren, machten Computer kleiner, schneller und energieeffizienter.
+
+* **Aufkommen von Personal Computern (PCs) und dem Internet:**
+    * **Personal Computer:** Machten Computer für Einzelpersonen zugänglich. Wichtige Meilensteine waren der **Apple II (1977)** und der **IBM PC (1981)**, der einen Standard für Hardware schuf.
+    * **Internet:** Entstand aus dem **ARPANET (1969)**, einem Forschungsprojekt. Die Einführung des **TCP/IP-Protokolls (1983)** bildete die technische Grundlage. Das **World Wide Web (WWW, 1989)**, entwickelt von Tim Berners-Lee, machte das Internet durch Webseiten und Browser benutzerfreundlich.
+
+* **Mobilisierung und Digitalisierung (1990er–2000er):**
+    * **Mobiltelefone und später Smartphones:** Revolutionierten den Zugang zu IT. Das iPhone (2007) veränderte grundlegend die Art, wie Menschen Informationen nutzen und kommunizieren.
+    * **Digitale Revolution:** Einführung von Cloud-Diensten, sozialen Medien, E-Commerce und digitaler Kommunikation.
+
+* **Aktuelle Entwicklungen (2010er–2020er):**
+    * **Künstliche Intelligenz (KI):** Systeme wie Sprachassistenten, autonome Fahrzeuge und Chatbots nutzen KI, um menschliche Denkprozesse nachzubilden.
+    * **Big Data & Cloud-Computing:** Erlauben die Verarbeitung riesiger Datenmengen in Echtzeit über das Internet.
+    * **Blockchain & Kryptowährungen:** Neue Formen der digitalen Wertübertragung, z. B. durch Bitcoin und Ethereum.
+    * **Internet der Dinge (IoT):** Vernetzt Alltagsgeräte wie Kühlschränke, Uhren oder Autos mit dem Internet.
+
+* **Zukunftsausblick:**
+    * **Quantencomputing:** Verspricht eine drastische Leistungssteigerung in der Rechenkapazität.
+    * **Virtuelle und erweiterte Realität (VR/AR):** Werden zunehmend im Bildungsbereich, in der Industrie und im Gaming eingesetzt.
+    * **Ethik & Nachhaltigkeit:** Künftige IT-Entwicklung muss sich mit Fragen zu Datenschutz, Energieverbrauch und sozialer Verantwortung auseinandersetzen.
+
 ### 3. Grundkonzepte der IT
 
 * **Hardware vs. Software:**
-    * **Hardware:** Die **physischen**, anfassbaren Teile eines Computersystems (z.B. Prozessor (CPU), Arbeitsspeicher (RAM), Festplatte, Monitor, Tastatur, Maus).
-    * **Software:** Die **immateriellen** Programme, Anweisungen und Daten, die der Hardware sagen, was sie tun soll (z.B. Betriebssystem, Textverarbeitungsprogramm, Spiele).
+    * **Hardware:** Die **physischen**, anfassbaren Teile eines Computersystems (z. B. Prozessor (CPU), Arbeitsspeicher (RAM), Festplatte, Monitor, Tastatur, Maus).
+    * **Software:** Die **immateriellen** Programme, Anweisungen und Daten, die der Hardware sagen, was sie tun soll (z. B. Betriebssystem, Textverarbeitungsprogramm, Spiele).
+
 * **Betriebssysteme (OS) und Anwendungssoftware:**
-    * **Betriebssystem:** Die **grundlegende Software**, die die Hardware verwaltet, Systemressourcen koordiniert und eine Plattform für andere Software bereitstellt (z.B. Windows, macOS, Linux, Android, iOS).
-    * **Anwendungssoftware (Apps):** Programme, die **spezifische Aufgaben** für den Benutzer erledigen (z.B. Microsoft Word zur Textverarbeitung, Google Chrome zum Surfen, Photoshop zur Bildbearbeitung).
+    * **Betriebssystem:** Die **grundlegende Software**, die die Hardware verwaltet, Systemressourcen koordiniert und eine Plattform für andere Software bereitstellt (z. B. Windows, macOS, Linux, Android, iOS).
+    * **Anwendungssoftware (Apps):** Programme, die **spezifische Aufgaben** für den Benutzer erledigen (z. B. Microsoft Word zur Textverarbeitung, Google Chrome zum Surfen, Photoshop zur Bildbearbeitung).
+
 * **Netzwerkgrundlagen:**
-    * **LAN (Local Area Network):** Ein Netzwerk, das Geräte in einem **begrenzten geografischen Bereich** verbindet (z.B. ein Haus, ein Bürogebäude). Ermöglicht gemeinsame Nutzung von Ressourcen (Drucker, Dateien).
-    * **WAN (Wide Area Network):** Ein Netzwerk, das sich über **große geografische Gebiete** erstreckt und oft mehrere LANs miteinander verbindet (z.B. Firmennetzwerke zwischen verschiedenen Städten).
+    * **LAN (Local Area Network):** Ein Netzwerk, das Geräte in einem **begrenzten geografischen Bereich** verbindet (z. B. ein Haus, ein Bürogebäude). Ermöglicht gemeinsame Nutzung von Ressourcen (Drucker, Dateien).
+    * **WAN (Wide Area Network):** Ein Netzwerk, das sich über **große geografische Gebiete** erstreckt und oft mehrere LANs miteinander verbindet (z. B. Firmennetzwerke zwischen verschiedenen Städten).
     * **Internet:** Das **weltweit größte WAN**, ein riesiges Netzwerk von Netzwerken, das Millionen von Computern global verbindet.
+
 * **Datenbanken und Datenmanagement:**
-    * **Datenbanken:** Strukturierte Sammlungen von Daten, die effizient gespeichert, verwaltet und abgefragt werden können (z.B. Kundendatenbank, Produktkatalog). Typen sind z.B. relationale (SQL) und NoSQL-Datenbanken.
+    * **Datenbanken:** Strukturierte Sammlungen von Daten, die effizient gespeichert, verwaltet und abgefragt werden können (z. B. Kundendatenbank, Produktkatalog). Typen sind z. B. relationale (SQL) und NoSQL-Datenbanken.
     * **Datenmanagement:** Alle Prozesse zur Verwaltung von Daten über ihren gesamten Lebenszyklus, um Datenqualität, -sicherheit und -zugänglichkeit zu gewährleisten.
+
+* **Programmierung und Algorithmen:**
+    * **Programmierung:** Das Erstellen von Anweisungen (Code), die Computer ausführen können. Verwendet Programmiersprachen wie Python, Java, C++ oder JavaScript.
+    * **Algorithmen:** Schritt-für-Schritt-Anleitungen zur Lösung von Problemen oder zur Durchführung von Aufgaben – die Grundlage jeder Software.
+
+* **IT-Sicherheit (Cybersecurity):**
+    * Umfasst **Maßnahmen zum Schutz von Daten und Systemen** vor unerlaubtem Zugriff, Manipulation, Verlust oder Diebstahl.
+    * Wichtige Konzepte: **Passwortschutz**, **Verschlüsselung**, **Firewalls**, **Antivirensoftware**, **Zwei-Faktor-Authentifizierung**.
+
+* **Cloud Computing:**
+    * Bereitstellung von IT-Ressourcen wie Speicher, Rechenleistung oder Software **über das Internet** (z. B. Google Drive, Microsoft Azure, Amazon Web Services).
+    * Vorteile: **Skalierbarkeit**, **Kosteneffizienz**, **ortsunabhängiger Zugriff**, **automatische Updates**.
 
 ### 4. Anwendungsbereiche der IT
 
 IT ist heute praktisch überall präsent:
 
-* **Geschäftswelt:** Buchhaltung, Ressourcenplanung (ERP), Kundenmanagement (CRM), Kommunikation, Online-Handel.
-* **Bildung:** E-Learning-Plattformen, digitale Klassenzimmer, Forschungsdatenbanken.
-* **Gesundheitswesen:** Elektronische Patientenakten, Telemedizin, medizinische Bildgebung, Forschung.
-* **Unterhaltung:** Spiele, Streaming (Netflix, Spotify), digitale Medien (E-Books, Online-Zeitungen).
-* **Kommunikation:** E-Mail, Messenger, soziale Netzwerke, Videokonferenzen.
-* **Transport:** Navigationssysteme, Verkehrssteuerung, autonomes Fahren.
-* **Wissenschaft & Forschung:** Simulationen, Datenanalyse, Modellierung.
+* **Geschäftswelt:** Buchhaltung, Ressourcenplanung (ERP), Kundenmanagement (CRM), Kommunikation, Online-Handel, Datenanalyse, digitale Geschäftsprozesse.
+* **Bildung:** E-Learning-Plattformen, digitale Klassenzimmer, Forschungsdatenbanken, virtuelle Labore, kollaborative Lernumgebungen.
+* **Gesundheitswesen:** Elektronische Patientenakten, Telemedizin, medizinische Bildgebung, Forschung, KI-gestützte Diagnostik.
+* **Unterhaltung:** Spiele, Streaming (Netflix, Spotify), digitale Medien (E-Books, Online-Zeitungen), Virtual und Augmented Reality.
+* **Kommunikation:** E-Mail, Messenger, soziale Netzwerke, Videokonferenzen, Cloud-Kommunikationsdienste.
+* **Transport:** Navigationssysteme, Verkehrssteuerung, autonomes Fahren, Logistikmanagement, Flugsteuerung.
+* **Wissenschaft & Forschung:** Simulationen, Datenanalyse, Modellierung, Hochleistungsrechnen, Citizen Science.
+* **Verwaltung & Regierung:** E-Government-Portale, digitale Bürgerdienste, Online-Wahlen, Steuerverarbeitung.
+* **Landwirtschaft:** Präzisionslandwirtschaft, Drohneneinsatz, Wetteranalyse, automatisierte Bewässerungssysteme.
+* **Energie:** Smart Grids, intelligente Zähler, Wartung von Infrastruktur durch IoT und Sensorik.
 
-### 5. Computer Generationen
+---
 
-Die Entwicklung von Computern lässt sich grob in Generationen einteilen, basierend auf der verwendeten Schlüsseltechnologie:
+### 5. Computer-Generationen
 
-1.  **Erste Generation (ca. 1940er - 1950er):** **Vakuumröhren**. Computer waren riesig, teuer, energieintensiv und fehleranfällig (z.B. ENIAC, UNIVAC).
-2.  **Zweite Generation (ca. 1950er - 1960er):** **Transistoren**. Ersetzten Röhren, machten Computer kleiner, schneller, zuverlässiger und energieeffizienter. Erste Hochsprachen (COBOL, FORTRAN) und Betriebssysteme entstanden (z.B. IBM 1401).
-3.  **Dritte Generation (ca. 1960er - 1970er):** **Integrierte Schaltkreise (ICs / Chips)**. Viele Transistoren auf einem kleinen Chip ermöglichten weitere Miniaturisierung, Kostenreduktion und Leistungssteigerung (z.B. IBM System/360).
-4.  **Vierte Generation (ca. 1970er - heute):** **Mikroprozessoren**. Der gesamte Prozessor (CPU) auf einem einzigen Chip. Führte zur Entwicklung von Personal Computern, enormen Leistungssteigerungen und der Verbreitung des Internets und mobiler Geräte (z.B. Intel 4004, moderne PCs).
-5.  **Fünfte Generation (Gegenwart & Zukunft):** Fokus auf **Künstliche Intelligenz (KI)**, maschinelles Lernen, Parallelverarbeitung und **Quantencomputing**. Ziel sind lernfähige, menschenähnlich interagierende Systeme und die Lösung extrem komplexer Probleme.
+Die Entwicklung von Computern lässt sich grob in Generationen einteilen, basierend auf der jeweils dominanten Technologie:
+
+| Generation | Zeitraum            | Schlüsseltechnologie             | Merkmale & Beispiele |
+|------------|---------------------|----------------------------------|-----------------------|
+| **1.**     | 1940er–1950er        | Vakuumröhren                     | Sehr groß, heiß, langsam, z. B. **ENIAC**, **UNIVAC** |
+| **2.**     | 1950er–1960er        | Transistoren                     | Kleiner, effizienter, erste Programmiersprachen (**COBOL**, **FORTRAN**) |
+| **3.**     | 1960er–1970er        | Integrierte Schaltkreise (ICs)   | Mehr Leistung, geringere Kosten, z. B. **IBM System/360** |
+| **4.**     | 1970er–heute         | Mikroprozessoren                 | PC-Ära, Internet, mobile Geräte, z. B. **Intel 4004**, **Apple Macintosh** |
+| **5.**     | Gegenwart & Zukunft  | KI, Quantencomputing, Parallelverarbeitung | Lernende Systeme, menschenähnliche Interaktion, z. B. **ChatGPT**, **Google DeepMind**, **Quantenchips** |
 
 ---
 
