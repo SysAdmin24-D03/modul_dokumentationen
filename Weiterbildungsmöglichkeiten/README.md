@@ -1,6 +1,8 @@
 # Weiterbildungsmöglichkeiten 
 
 ## 🎓 Kurse & Lernpfade mit kostenlosen Angeboten
+- [GitHub Skills](https://skills.github.com/)  
+  > Kurse zu allen relevanten Themn im Kontext GitHub.
 
 - [NetAcademy (Cisco)](https://www.netacad.com)  
   > Offizielle Lernplattform von Cisco – ideal für Netzwerktechnik, CCNA-Vorbereitung und Cybersicherheit.
