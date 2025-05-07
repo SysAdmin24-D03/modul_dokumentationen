@@ -42,6 +42,9 @@
 - [Hack The Box](https://www.hackthebox.com)  
   > Interaktive Labs und Challenges zum Erlernen und Üben von Penetration Testing.
 
+- [Hackviser](https://hackviser.com)  
+  > Vergleichsportal für Hacking-Plattformen – ideal zur Orientierung.
+
 - [RangeForce](https://www.rangeforce.com)  
   > Cybersecurity-Simulationen in einer virtuellen Umgebung für praktische Erfahrung.
 
@@ -68,6 +71,3 @@
 
 
 ## 🔍 Vergleichs- & Zusatzplattformen
-
-- [Hackviser](https://hackviser.com)  
-  > Vergleichsportal für Hacking-Plattformen – ideal zur Orientierung.
