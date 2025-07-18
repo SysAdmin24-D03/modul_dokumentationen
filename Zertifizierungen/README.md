@@ -74,7 +74,7 @@ Explore essential certifications grouped by domain.
 | [Linux Essentials](https://tinyurl.com/lpi-LE)                               | LPI                | Linux          | Beginner | EUR 110  | Lifetime   | Essential Linux skills               |
 | [LPIC-1: 101](https://www.lpi.org/our-certifications/lpic-1-overview)        | LPI                | Linux          | Beginner | EUR 176  | 5 years    | Essential Linux Administrator skills |
 | [LPIC-1: 102](https://www.comptia.org/certifications/linux)                  | LPI                | Linux          | Beginner | EUR 176  | 5 years    | Essential Linux Administrator skills |
-| [CompTIA Linux+](https://aws.amazon.com/certification/)                      | CompTIA            | Linux          | Beginner | $$       | 3 years    | Vendor-neutral certification         |
+| [CompTIA Linux+](https://www.comptia.org/en-us/certifications/linux/)        | CompTIA            | Linux          | Beginner | $ 390    | 3 years    | Vendor-neutral certification         |
 | [Microsoft AZ-900](https://learn.microsoft.com/en-us/training/courses/az-900t00)                             | Microsoft          | Cloud          | Beginner | EUR 76   | 1 year     | Azure Fundamentals                       |
 | [Microsoft SC-900](https://tinyurl.com/MSSC-900)                             | Microsoft          | Cloud Security          | Beginner | EUR 76   | 1 year     | Cloud Security                       |
 | [Microsoft AZ-104](https://tinyurl.com/MS-AZ-104qq)                          | Microsoft          | Cloud            | Intermediate | EUR 126  | 1 year     |  Azure Administrator Associate     |
