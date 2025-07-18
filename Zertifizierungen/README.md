@@ -71,13 +71,12 @@ Explore essential certifications grouped by domain.
 
 | Certification Name            | Provider           | Category         | Level     | Cost     | Validity     | Link                                       | Notes                                |
 |------------------------------|--------------------|------------------|-----------|----------|--------------|--------------------------------------------|--------------------------------------|
-
-| Linux Essentials             | LPI                | Linux            | Beginner     | EUR 110  | Lifetime     | [Link](https://www.lpi.org/our-certifications/linux-essentials-overview/) | Essential Linux skills        |
-| LPIC-1: 101                  | LPI                | Linux            | Beginner     | EUR 176  | 5 years      | [Link](https://www.lpi.org/our-certifications/lpic-1-overview/) | Essential Linux Administrator skills     |
-| LPIC-1: 102                  | LPI                | Linux            | Beginner     | EUR 176  | 5 years      | [Link](https://www.lpi.org/our-certifications/lpic-2-overview/) | Essential Linux Administrator skills     |
-| CompTIA Linux+               | CompTIA            | Linux            | Beginner     | $$       | 3 years      | [Link](https://www.comptia.org/certifications/linux)         | Vendor-neutral certification        |
-| AWS SysOps Administrator     | Amazon AWS         | Cloud            | Intermediate | $$$      | 3 years      | [Link](https://aws.amazon.com/certification/)                 | Cloud-focused for AWS environments |
-| Microsoft SC-900             | Microsoft          | Cloud            | Beginner     | EUR 76   | 1 year       | [Link](https://tinyurl.com/MSSC-900)                          | Cloud Security  |
-| Microsoft AZ-104             | Microsoft          | Cloud            | Intermediate | $$$      | 1 year       | [Link](https://learn.microsoft.com/en-us/certifications/exams/az-104/) | Focuses on Azure administration   |
-| LPIC-1                       | Linux Professional | Linux            | Beginner     | $$       | 5 years      | [Link](https://www.lpi.org/our-certifications/lpic-1-overview) | Entry-level Linux admin           |
+| Linux Essentials             | LPI                | Linux            | Beginner | EUR 110  | Lifetime   | [Link](https://tinyurl.com/lpi-LE) | Essential Linux skills     |
+| LPIC-1: 101                  | LPI                | Linux            | Beginner | EUR 176  | 5 years    | [Link](https://www.lpi.org/our-certifications/lpic-1-overview/) | Essential Linux Administrator skills  |
+| LPIC-1: 102                  | LPI                | Linux            | Beginner | EUR 176  | 5 years    | [Link](https://www.lpi.org/our-certifications/lpic-2-overview/) | Essential Linux Administrator skills  |
+| CompTIA Linux+               | CompTIA            | Linux            | Beginner | $$       | 3 years    | [Link](https://www.comptia.org/certifications/linux)     | Vendor-neutral certification        |
+| AWS SysOps Administrator     | Amazon AWS         | Cloud            | Intermediate| $$$   | 3 years    | [Link](https://aws.amazon.com/certification/)            | Cloud-focused for AWS environments |
+| Microsoft SC-900             | Microsoft          | Cloud            | Beginner | EUR 76   | 1 year     | [Link](https://tinyurl.com/MSSC-900)                     | Cloud Security  |
+| Microsoft AZ-104             | Microsoft          | Cloud            | Intermediate| $$$   | 1 year     | [Link](https://learn.microsoft.com/en-us/certifications/exams/az-104/) | Focuses on Azure administration   |
+| LPIC-1                       | Linux Professional | Linux            | Beginner | $$       | 5 years    | [Link](https://www.lpi.org/our-certifications/lpic-1-overview) | Entry-level Linux admin        |
 
