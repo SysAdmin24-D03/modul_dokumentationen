@@ -77,5 +77,5 @@ Explore essential certifications grouped by domain.
 | [CompTIA Linux+](https://aws.amazon.com/certification/)                      | CompTIA            | Linux          | Beginner | $$       | 3 years    | Vendor-neutral certification         |
 | [Microsoft AZ-900](https://learn.microsoft.com/en-us/training/courses/az-900t00)                             | Microsoft          | Cloud          | Beginner | EUR 76   | 1 year     | Cloud Security                       |
 | [Microsoft SC-900](https://tinyurl.com/MSSC-900)                             | Microsoft          | Cloud Security          | Beginner | EUR 76   | 1 year     | Cloud Security                       |
-| [Microsoft AZ-104](https://tinyurl.com/MS-AZ-104qq)                          | Microsoft          | Cloud            | Intermediate | $$$  | 1 year     |  Focuses on Azure administration     |
+| [Microsoft AZ-104](https://tinyurl.com/MS-AZ-104qq)                          | Microsoft          | Cloud            | Intermediate | EUR 126  | 1 year     |  Focuses on Azure administration     |
 
